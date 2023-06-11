@@ -1,0 +1,2319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--reset & normalize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!--swiper-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+   <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>장바구니</title>
+    <link rel="stylesheet" href="../css/myshop_common.css">
+    <link rel="stylesheet" href="../css/myshop_main.css">
+    <link rel="stylesheet" href="../css/myshop_support.css">
+    <link rel="stylesheet" href="../css/myshop_intro.css">
+    <link rel="stylesheet" href="../css/myshop_mypage.css">
+    <link rel="stylesheet" href="../css/myshop_mypage_02.css">
+    <link rel="stylesheet" href="../css/myshop_mypage_03.css">
+    <link rel="stylesheet" href="../css/myshop_order.css">
+    <link rel="stylesheet" href="../css/myshop_option.css">
+    <script src="../js/myshop_common.js"></script>
+    <script src="../js/myshop_order.js"></script>
+    <script src="../js/myshop_product.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="category">
+            <button class="cate_close"></button>
+            <div class="sort_box cate_user">
+                <div class="sort"></div>
+                <span class="sort sort_box">
+                    <p class="sort">팀삼층</p>
+                    <p class="sort">님</p>
+                </span>
+            </div>
+            <div class="cate_select sort_box">
+                <div class="sort">
+                    <input name="cate_type" type="radio" id="cate_type_dog" checked="checked" />
+                    <label for="cate_type_dog"><span></span>강아지</label>
+                </div>
+                <div class="sort">
+                    <input name="cate_type" type="radio" id="cate_type_cat" />
+                    <label for="cate_type_cat"><span></span>고양이</label>
+                </div>
+                <div class="sort">
+                    <input name="cate_type" type="radio" id="cate_type_small" />
+                    <label for="cate_type_small"><span></span>소동물</label>
+                </div>
+            </div>
+            <div class="main_category_list">
+				<h3>카테고리</h3>
+				<ul>
+					<li class=""><a href="">사료</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">건식사료</a></li>
+								<li><a href="#">습식사료</a></li>
+								<li><a href="#">소프트사료</a></li>
+								<li><a href="#">처방사료</a></li>
+								<li><a href="#">동결건조</a></li>
+								<li><a href="#">분유</a></li>
+								<li><a href="#">수제사료</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div></li>
+					<li><a href="">간식</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">습식</a></li>
+								<li><a href="#">져키</a></li>
+								<li><a href="#">소시지</a></li>
+								<li><a href="#">스낵</a></li>
+								<li><a href="#">트릿</a></li>
+								<li><a href="#">음료/유제품</a></li>
+								<li><a href="#">수제간식</a></li>
+								<li><a href="#">동결건조</a></li>
+								<li><a href="#">껌</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/12573/product/DDAKPET_d5c245dc-c5f7-46f8-81ed-33defb078d5b_t.jpg" alt=""> <span class="recommand_badge"> <img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴코어] 씨푸드스틱 20P 2종</span>
+								</div>
+							</div>
+						</div></li>
+					<li>
+						<a href="">하우스</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">하우스</a></li>
+								<li><a href="#">방석</a></li>
+								<li><a href="#">펜스</a></li>
+								<li><a href="#">계단</a></li>
+								<li><a href="#">매트</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">식기</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">급식기</a></li>
+								<li><a href="#">급수기</a></li>
+								<li><a href="#">식탁</a></li>
+								<li><a href="#">휴대용</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">미용</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">브러쉬</a></li>
+								<li><a href="#">이발기</a></li>
+								<li><a href="#">가위</a></li>
+								<li><a href="#">염색약</a></li>
+								<li><a href="#">발/발톱</a></li>
+								<li><a href="#">보관/관리</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">장난감</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">로프</a></li>
+								<li><a href="#">봉제</a></li>
+								<li><a href="#">공/원반</a></li>
+								<li><a href="#">노즈워크/IQ</a></li>
+								<li><a href="#">전자기기</a></li>
+								<li><a href="#">훈련용</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">외출</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">하네스</a></li>
+								<li><a href="#">목줄</a></li>
+								<li><a href="#">리드줄</a></li>
+								<li><a href="#">자동줄</a></li>
+								<li><a href="#">가방</a></li>
+								<li><a href="#">켄넬</a></li>
+								<li><a href="#">캐리어</a></li>
+								<li><a href="#">유모차</a></li>
+								<li><a href="#">카시트</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">패션</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">티셔츠</a></li>
+								<li><a href="#">올인원</a></li>
+								<li><a href="#">원피스</a></li>
+								<li><a href="#">아우터</a></li>
+								<li><a href="#">시즌</a></li>
+								<li><a href="#">잡화/액세서리</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">위생</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">물티슈</a></li>
+								<li><a href="#">세정제</a></li>
+								<li><a href="#">탈취제/소독제</a></li>
+								<li><a href="#">도구</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">건강</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">영양제</a></li>
+								<li><a href="#">관리</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">배변</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">패드</a></li>
+								<li><a href="#">배변판</a></li>
+								<li><a href="#">기저귀/매너벨트</a></li>
+								<li><a href="#">배변봉투</a></li>
+								<li><a href="#">배변유도제</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">기타</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">팬시</a></li>
+								<li><a href="#">서적</a></li>
+								<li><a href="#">음반</a></li>
+								<li><a href="#">CCTV</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+        </div>
+        <div class="category_bg"></div>
+        <div class="top"></div>
+        <div class="sort_box top_gnb">
+            <a href="#" class="sort ddakpet_logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124.07 134.16">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: #2ea8df;
+                            }
+
+                            .cls-2 {
+                                fill: #fff;
+                            }
+
+                            .cls-3 {
+                                fill: #ffe800;
+                                fill-rule: evenodd;
+                            }
+                        </style>
+                    </defs>
+                    <g id="Layer_2" data-name="Layer 2">
+                        <g id="Layer_1-2" data-name="Layer 1">
+                            <path class="cls-1"
+                                d="M124.07,49.45a31,31,0,0,0-31-31c-.88,0-1.75.05-2.61.12a31,31,0,0,0-56.81,0c-.86-.07-1.73-.12-2.61-.12a31,31,0,0,0-25.3,49,31,31,0,0,0,25.3,49c1,0,1.93,0,2.88-.14a31,31,0,0,0,56.27,0c1,.09,1.91.14,2.88.14a31,31,0,0,0,25.3-48.95A30.93,30.93,0,0,0,124.07,49.45Z" />
+                            <path class="cls-2"
+                                d="M26.53,34.57v8.17A12.88,12.88,0,1,0,33,53.89V28.13S26.53,28.56,26.53,34.57ZM20.09,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,20.09,60.33Z" />
+                            <path class="cls-2"
+                                d="M54.21,34.57v8.17a12.87,12.87,0,1,0,6.45,11.15V28.13S54.21,28.56,54.21,34.57ZM47.77,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,47.77,60.33Z" />
+                            <path class="cls-2"
+                                d="M82.71,43.24a12.88,12.88,0,1,0-7.23,23.53,12.91,12.91,0,0,0,6.44-1.72h0s2.12,1.72,6.44,1.72V53.89A12.84,12.84,0,0,0,82.71,43.24ZM75.48,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,75.48,60.33Z" />
+                            <path class="cls-2"
+                                d="M106.35,66.63H115L105.1,53.34,113.93,41a27.61,27.61,0,0,0-4.72.07A6.81,6.81,0,0,0,105.1,43l-5.52,6.9v0l-2.67,3.31V33.77c-.09-1.76-.93-5.56-6.45-5.56V66.85h6.45V63.27l3.85-4.67Z" />
+                            <path class="cls-2"
+                                d="M79.18,95.11h5.44v7.13H79.18Zm1.32,6h2.81V96.27H80.5ZM88.14,97H90v1.32H88.14v4.21H86.79V93h1.35Z" />
+                            <path class="cls-2"
+                                d="M93.55,95a2.84,2.84,0,0,1,1.2.25,3.19,3.19,0,0,1,1,.71,3.08,3.08,0,0,1,.66,1,3.68,3.68,0,0,1,0,2.56,3.08,3.08,0,0,1-.66,1,3.37,3.37,0,0,1-1,.71,3,3,0,0,1-2.38,0,3.24,3.24,0,0,1-1-.71,2.92,2.92,0,0,1-.65-1,3.53,3.53,0,0,1,0-2.56,2.92,2.92,0,0,1,.65-1,3.08,3.08,0,0,1,1-.71A2.81,2.81,0,0,1,93.55,95Zm0,5.18A1.89,1.89,0,0,0,95.21,99a1.93,1.93,0,0,0,0-1.49,2.12,2.12,0,0,0-.39-.61,1.92,1.92,0,0,0-.57-.39,1.69,1.69,0,0,0-.7-.15,1.65,1.65,0,0,0-.69.15,1.92,1.92,0,0,0-.57.39,1.77,1.77,0,0,0-.39.61,2.05,2.05,0,0,0,0,1.49,1.45,1.45,0,0,0,.39.59,1.69,1.69,0,0,0,.57.42A1.65,1.65,0,0,0,93.55,100.19Zm6.34,2.29H98.53V93h1.36Z" />
+                            <path class="cls-2"
+                                d="M110.44,98.57v1.21h-9.25V98.57h2.34V96.89h1.29v1.68h2V96.89h1.3v1.68Zm-4.63-4-3,2.85-1.06-.78,4-3.82,4.07,3.82-1.08.78Zm2.09,5.89h1.32v4.27h-6.8v-4.4h1.35v1.08h4.13Zm0,2.1h-4.12v1.14h4.12Z" />
+                            <path class="cls-2" d="M104.18,32.44h-1.92v-1h4.9v1h-1.91v5.71h-1.07Z" />
+                            <path class="cls-2"
+                                d="M107.86,31.47h1.57L111,36.71l1.53-5.24h1.58v6.68h-1V32.86l-1.62,5.29h-1l-1.63-5.29v5.29h-1Z" />
+                            <path class="cls-2"
+                                d="M69.13,72.25v38.43s4.31,0,6.41-2.29V78.66S76.28,72.25,69.13,72.25Z" />
+                            <path class="cls-2"
+                                d="M22.39,74.61A12.81,12.81,0,0,0,9.58,87.42V113s6.4-.43,6.4-6.4V98.51a12.81,12.81,0,1,0,6.41-23.9Zm0,19.22a6.41,6.41,0,1,1,6.4-6.41A6.41,6.41,0,0,1,22.39,93.83Z" />
+                            <path class="cls-2"
+                                d="M49.76,93.81a6.39,6.39,0,0,1-6.38-6.39,5.89,5.89,0,0,1,.16-1.4,6.37,6.37,0,0,1,12.27-.63,49.91,49.91,0,0,0,6.63.17,12.81,12.81,0,0,0-22.82-6,12.14,12.14,0,0,0-1,1.59A12.81,12.81,0,1,0,61.76,91.92,35.51,35.51,0,0,1,55,91.09,6.37,6.37,0,0,1,49.76,93.81Z" />
+                            <path class="cls-3"
+                                d="M62.81,91.47A34,34,0,0,1,51,89.39a26.78,26.78,0,0,1-11.79-8.25.62.62,0,0,1,.1-.87.59.59,0,0,1,.38-.14.65.65,0,0,1,.49.23v0h0c4.3,3.65,11.68,5.75,20.24,5.75,12.66,0,24.6-4.36,29.72-10.86a.83.83,0,0,1,.62-.36A.46.46,0,0,1,91,75a.62.62,0,0,1,.28.83,26.87,26.87,0,0,1-9.88,10.48,35,35,0,0,1-14.85,5C65.28,91.4,64,91.47,62.81,91.47Z" />
+                        </g>
+                    </g>
+                </svg>
+            </a>
+            <div class="sort_box sort">
+                <div class="sort cate_f on"><a href="#">스토어</a></div>
+                <div class="sort cate_f"><a href="#">커뮤니티</a></div>
+            </div>
+            <div class="sort search">
+                <input type="text" onclick="search_form_open_toggle();">
+                <button></button>
+                
+
+                <div class="search_form">
+					<button class="search_form_closeBtn" onclick="search_form_close_toggle();">닫기</button>
+					<div class="search_recommand">
+						<h3>지금 만나보세요!</h3>
+						<div>
+							<div class="search_recommend_img">
+								<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+								<span class="recommand_badge">
+									<img src="../img/badge_md.png" alt="">
+								</span>
+							</div>
+							<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+						</div>
+					</div>
+					<div class="search_keyword">
+						<h3>최근 검색어</h3>
+						<span class="none">최근 검색어가 없습니다.</span>
+						<ul>
+							<li><span>포메 사료</span>
+								<div class="keyword_delete"></div></li>
+							<li><span>강아지 노즈워크</span>
+								<div class="keyword_delete"></div></li>
+							<li><span>껌</span>
+								<div class="keyword_delete"></div></li>
+						</ul>
+					</div>
+					<div class="search_ranking">
+						<h3>실시간 쇼핑 검색어</h3>
+						<ul>
+                            <li><span>1</span>끙패드</li>
+                            <li><span>2</span>꽁치간식</li>
+                            <li><span>3</span>배변패드</li>
+                            <li><span>4</span>한복</li>
+                            <li><span>5</span>건식사료</li>
+                            <li><span>6</span>강아지 식기</li>
+                            <li><span>7</span>우비</li>
+                            <li><span>8</span>덴탈껌</li>
+                            <li><span>9</span>샴푸</li>
+                            <li><span>10</span>고구마</li>
+                        </ul>
+					</div>
+				</div>
+            </div>
+            <div class="sort ddakpet_ranking swiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <span>1.</span>
+                            <span>끙패드</span>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <span>2.</span>
+                            <span>사료</span>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <span>3.</span>
+                            <span>anf</span>
+                        </a>
+                    </li>
+                </ul>
+                <div>
+					<button class="ddakpet_ranking_btn ddakpet_ranking_dowm_btn" onclick="search_form_open_toggle()"></button>
+					<button class="ddakpet_ranking_btn ddakpet_ranking_up_btn"></button>
+				</div>
+            </div>
+            <div class="sort_r user_gnb">
+                <ul class="sort_box">
+                    <li class="sort user_gnb_l gnb_01">
+                        <a href="#">마이페이지</a>
+                        <ul>
+                            <li><a href="#">주문배송/조회</a></li>
+                            <li><a href="#">취소/반품/교환</a></li>
+                            <li><a href="#">퀵주문</a></li>
+                            <li><a href="#">단골샵</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">회원정보</a></li>
+                        </ul>
+                    </li>
+                    <li class="sort user_gnb_l"><a href="#">배송조회</a></li>
+                    <li class="sort user_gnb_l"><a href="#">장바구니</a></li>
+                    <li class="sort user_gnb_l"><a href="#">최근 본 상품</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="top_menu">
+            <div class="sort_box inner">
+                <button class="sort category_btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="sort">
+                    <li><a href="#">행사상품</a></li>
+                    <li><a href="#">기획전</a></li>
+                    <li><a href="#">신상품</a></li>
+                    <li class="ddak_month"><a href="#"><img src="../img/dd_fficial.svg" alt=""
+                                width="52"></a></li>
+                    <li class="ddak_fficial"><a href="#"><img src="../img/dd_month.svg" alt=""
+                                width="52"></a></li>
+                </ul> 
+                <div class="sort_r">
+                    <div class="sort_box sort login_status" style="display: none;">
+                        <a href="myshop_login.html" class="sort">로그인</a>
+                        <a href="myshop_join.html" class="sort">회원가입</a>
+                    </div>
+                    <div class="sort_box sort info_status">
+                        <div class="sort info_my">
+                            <img src="img/grade_05.png" alt="" width="22">
+                            <a href="#"><span>팀삼층</span><span>님</span></a>
+                        </div>
+                        <div class="sort info_point"><span>30,000</span></div>
+                        <div class="sort info_cash"><span>2,000</span><button>충전</button></div>
+                        <div class="sort_box sort info_etc">
+                            <div class="sort alarm"></div>
+                            <button class="sort">로그아웃</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="body_wrap">
+        <div class="canvas">
+            <div class="order_title_box">
+                <h2>장바구니</h2>
+                <div class="order_guide">
+                    <span class="on">1.장바구니</span>
+                    <span>></span>
+                    <span>2.주문결제</span>
+                    <span>></span>
+                    <span>3.주문완료</span>
+                </div>
+            </div>
+            <div class="cart_body">
+                <div class="cart_list_box">
+                    <div class="cart_list">
+                        <h3>전체장바구니</h3><span>(4)개의 장바구니 상품</span>
+                    </div>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="cart_allSelect" id="cart_allSelect">
+                            <label for="cart_allSelect">전체선택</label>
+                            <button>선택삭제</button>
+                            <button>견적서출력</button>
+                        </li>
+                        <li>상품정보(옵션)</li>
+                        <li>구매금액</li>
+                        <li>배송비(업체)</li>
+                    </ul>
+                    <div class="cart_ddd_title">딱배송 상품</div>
+                    <div class="cart_ddd_prodList_box table">
+                        <div class="table_row">
+                            <div class="cart_prodList cart_ddd_prodList table-cell">
+                                <div>
+                                    <div class="cart_prod cart_ddd_prod table-cell">
+                                        <div class="cart_checkBtn">
+                                            <input type="checkbox" name="sc_ft_soldOut" id="sc_ft_soldOut">
+                                            <label class="fil_space" for="sc_ft_soldOut"></label>
+                                        </div>
+                                        <div class="cart_thumbnail">
+                                        </div>
+                                        <ul class="cart_prod_text">
+                                            <li>하네스</li>
+                                            <li><b>[패션독]체크원피스 하네스</b><span>오프라인</span></li>
+                                            <li><button>옵션추가/변경</button></li>
+                                            <li class="cart_prod_option">
+                                                <span class="cart_color">색상:핑크색<span
+                                                        class="cart_size">/크기:M</span></span>
+                                                <span class="cart_p">10,800</span>
+                                                <span class="cart_volume">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                    <p>1</p>
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </span>
+                                                <button class="cart_changeBtn">변경</button>
+                                                <span class="cart_m_sum">10,800</span>
+                                                <button class="cart_xBtn"><i class="fa-solid fa-xmark"></i></ㅠ>
+                                            </li>
+                                            <li class="cart_prod_option">
+                                                <span class="cart_color">색상:핑크색<span
+                                                        class="cart_size">/크기:M</span></span>
+                                                <span class="cart_p">10,800</span>
+                                                <span class="cart_volume">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                    <p>1</p>
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </span>
+                                                <button class="cart_changeBtn">변경</button>
+                                                <span class="cart_m_sum">10,800</span>
+                                                <button class="cart_xBtn"><i class="fa-solid fa-xmark"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="cart_ddd_pice table-cell">
+                                        <p>32,400원</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="cart_prod cart_ddd_prod table-cell">
+                                        <div class="cart_checkBtn">
+                                            <input type="checkbox" name="sc_ft_soldOut" id="sc_ft_soldOut">
+                                            <label class="fil_space" for="sc_ft_soldOut"></label>
+                                        </div>
+                                        <div class="cart_thumbnail">
+                                        </div>
+                                        <ul class="cart_prod_text">
+                                            <li>하네스</li>
+                                            <li><b>[패션독]체크원피스 하네스</b><span>오프라인</span></li>
+                                            <li><button>옵션추가/변경</button></li>
+                                            <li class="cart_prod_option">
+                                                <span class="cart_color">색상:핑크색<span
+                                                        class="cart_size">/크기:M</span></span>
+                                                <span class="cart_p">10,800</span>
+                                                <span class="cart_volume">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                    <p>1</p>
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </span>
+                                                <button class="cart_changeBtn">변경</button>
+                                                <span class="cart_m_sum">10,800</span>
+                                                <button class="cart_xBtn"><i class="fa-solid fa-xmark"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="cart_ddd_pice table-cell">
+                                        <p>32,400원</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart_ddd_store table-cell">
+                                <ul>
+                                    <li><img src="img/ddd_logo.png" width="87" alt=""></li>
+                                    <li>50,000원 이상 <br>무료배송 </li>
+                                    <li>3,000원</li>
+                                    <li> <a href="#">묶음배송추가>></a> </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="cart_ddd_sum">
+                            <ul>
+                                <li>상품가격 <b>43,200</b> 원 </li>
+                                <li class="cart_ddd_sum_equals"><i class="fa-solid fa-plus"></i></li>
+                                <li>상품가격 <b>3,000</b> 원</li>
+                                <li class="cart_ddd_sum_equals"><i class="fa-solid fa-equals"></i></li>
+                                <li>상품가격 <b>46,200</b> 원</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cart_ddd_title">판매자배송 상품</div>
+                    <div class="cart_client_prodList_box table">
+                        <div class="table_row">
+                            <div class="cart_prodList cart_client_prodList table-cell">
+                                <div>
+                                    <div class="cart_prod cart_client_prod table-cell">
+                                        <div class="cart_checkBtn">
+                                            <input type="checkbox" name="sc_ft_soldOut" id="sc_ft_soldOut">
+                                            <label class="fil_space" for="sc_ft_soldOut"></label>
+                                        </div>
+                                        <div class="cart_thumbnail">
+                                        </div>
+                                        <ul class="cart_prod_text">
+                                            <li>하네스</li>
+                                            <li><b>[패션독]체크원피스 하네스</b><span>오프라인</span></li>
+                                            <li><button>옵션추가/변경</button></li>
+                                            <li class="cart_prod_option">
+                                                <span class="cart_color">색상:핑크색<span
+                                                        class="cart_size">/크기:M</span></span>
+                                                <span class="cart_p">10,800</span>
+                                                <span class="cart_volume">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                    <p>1</p>
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </span>
+                                                <button class="cart_changeBtn">변경</button>
+                                                <span class="cart_m_sum">10,800</span>
+                                                <button class="cart_xBtn"><i class="fa-solid fa-xmark"></i></button>
+                                            </li>
+                                            <li class="cart_prod_option">
+                                                <span class="cart_color">색상:핑크색<span
+                                                        class="cart_size">/크기:M</span></span>
+                                                <span class="cart_p">10,800</span>
+                                                <span class="cart_volume">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                    <p>1</p>
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </span>
+                                                <button class="cart_changeBtn">변경</button>
+                                                <span class="cart_m_sum">10,800</span>
+                                                <button class="cart_xBtn"><i class="fa-solid fa-xmark"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="cart_ddd_pice table-cell">
+                                        <p>32,400원</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart_ddd_store table-cell">
+                                <ul>
+                                    <li><img src="img/ddd_logo.png" width="87" alt=""></li>
+                                    <li>50,000원 이상 <br>무료배송 </li>
+                                    <li>3,000원</li>
+                                    <li> <a href="#">묶음배송추가>></a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="table_row">
+                            <div class="cart_prodList cart_client_prodList table-cell">
+                                <div>
+                                    <div class="cart_prod cart_client_prod table-cell">
+                                        <div class="cart_checkBtn">
+                                            <input type="checkbox" name="sc_ft_soldOut" id="sc_ft_soldOut">
+                                            <label class="fil_space" for="sc_ft_soldOut"></label>
+                                        </div>
+                                        <div class="cart_thumbnail">
+                                        </div>
+                                        <ul class="cart_prod_text">
+                                            <li>하네스</li>
+                                            <li><b>[패션독]체크원피스 하네스</b><span>오프라인</span></li>
+                                            <li><button>옵션추가/변경</button></li>
+                                            <li class="cart_prod_option">
+                                                <span class="cart_color">색상:핑크색<span
+                                                        class="cart_size">/크기:M</span></span>
+                                                <span class="cart_p">10,800</span>
+                                                <span class="cart_volume">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                    <p>1</p>
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </span>
+                                                <button class="cart_changeBtn">변경</button>
+                                                <span class="cart_m_sum">10,800</span>
+                                                <button class="cart_xBtn"><i class="fa-solid fa-xmark"></i></button>
+                                            </li>
+                                            <li class="cart_prod_option">
+                                                <span class="cart_color">색상:핑크색<span
+                                                        class="cart_size">/크기:M</span></span>
+                                                <span class="cart_p">10,800</span>
+                                                <span class="cart_volume">
+                                                    <i class="fa-solid fa-minus"></i>
+                                                    <p>1</p>
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </span>
+                                                <button class="cart_changeBtn">변경</button>
+                                                <span class="cart_m_sum">10,800</span>
+                                                <button class="cart_xBtn"><i class="fa-solid fa-xmark"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="cart_ddd_pice table-cell">
+                                        <p>32,400원</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart_ddd_store table-cell">
+                                <ul>
+                                    <li><img src="img/ddd_logo.png" width="87" alt=""></li>
+                                    <li>50,000원 이상 <br>무료배송 </li>
+                                    <li>3,000원</li>
+                                    <li> <a href="#">묶음배송추가>></a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cart_ddd_sum">
+                            <ul>
+                                <li>상품가격 <b>43,200</b> 원 </li>
+                                <li class="cart_ddd_sum_equals"><i class="fa-solid fa-plus"></i></li>
+                                <li>상품가격 <b>3,000</b> 원</li>
+                                <li class="cart_ddd_sum_equals"><i class="fa-solid fa-equals"></i></li>
+                                <li>상품가격 <b>46,200</b> 원</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="cart_allSelect" id="cart_allSelect">
+                            <label for="cart_allSelect">전체선택</label>
+                            <button>선택삭제</button>
+                            <button>견적서출력</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cart_paymaent_box">
+                    <ul class="cart_paymaent">
+                        <li>결제 예정 금액</li>
+                        <li class="cart_paymaent_text"><span>상품금액</span>
+                            <p class="cart_price">0원</p>
+                        </li>
+                        <li class="cart_paymaent_text"><span>할인금액</span>
+                            <p class="cart_price">0원</p>
+                        </li>
+                        <li class="cart_paymaent_text"><span>배송비</span>
+                            <p class="cart_price">0원</p>
+                        </li>
+                        <li>총 결제 금액</li>
+                        <li> <strong>10,000,000</strong> 원</li>
+                        <li class="cart_paymaent_btn"><button>선택상품 주문하기</button></li>
+                        <li class="cart_paymaent_btn"><button>전체 주문하기</button></li>
+
+                    </ul>
+                    <div class="cart_online_ban">
+                        <span><img src="/img/online_ban.png" width="50" alt=""></span>
+                        <span>
+                            <h2>온라인 판매 불가</h2>
+                            <p> <strong>온라인 판매 금지 상품</strong>이 장바구니에 있습니다. <br>
+                                온라인 판매 시 법적 책임을 물을 수 있습니다.</p>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+    <div class="body_wrap">
+        <div class="right_fix_wrap">
+            <div class="right_fix_box">
+                <ul class="right_fix_icon">
+
+
+                    <li>
+                        <a href="#">
+                            <div
+                                style="background-image: url('../img/side_mini_ad_1.png'); background-size: cover; background-position: center; color: #000000">
+                                <p>
+                                    신상품<br><strong>AD광고1</strong>
+                                </p>
+                                <span>AD</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <div
+                                style="background-image: url('../img/side_mini_ad_2.png'); background-size: cover; background-position: center; color: #ffffff">
+                                <p>
+                                    할인<br><strong>AD광고2</strong>
+                                </p>
+                                <span>AD</span>
+                            </div>
+                        </a>
+                    </li>
+
+
+                </ul>
+
+
+                <div class="right_fix_view_img">
+                    <ul>
+                        <li class="view_img_title"><a href="">최근 본 상품</a></li>
+                        <li class="view_img_photo">
+
+
+
+
+                            <a href="/dp/product/detail/2-26336" target="_blank"> <img
+                                    src="https://image.ddakpet.com/upload_operate/shop/1785/product/copy_2e49d2c1-2a2d-485a-a156-05d2988e6e98_t.jpg"
+                                    alt=""></a>
+
+
+
+
+
+                            <a href="/dp/product/detail/2-18945" target="_blank"> <img
+                                    src="https://image.ddakpet.com/upload_operate/shop/9738/product/DDAKPET_c4e8bec6-b13c-4d18-9863-755bda2911e9_t.jpg"
+                                    alt=""></a>
+
+
+
+
+
+                            <a href="/dp/product/detail/2-20740" target="_blank"> <img
+                                    src="https://image.ddakpet.com/upload_operate/shop/9738/product/DDAKPET_ad6c69d5-19cf-4844-9ae3-1c9276640670_t.jpg"
+                                    alt=""></a>
+
+
+
+
+
+                            <a href="/dp/product/detail/2-28337" target="_blank"> <img
+                                    src="https://image.ddakpet.com/upload_operate/shop/1636/product/DDAKPET_url_20220701011632_t.png"
+                                    alt=""></a>
+
+
+
+
+
+
+                        </li>
+                        <li class="view_img_more"><a href="">더보기</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="right_fix_talk">
+                    <img src="../img/main_right_fix_icon_05.png" width="75" alt="">
+                </div>
+                <div class="right_fix_scroll">
+                    <div class="right_fix_top"></div>
+                    <div class="right_fix_bottom"></div>
+                </div>
+            </div>
+        </div>
+        <div class="canvas">
+            <div class="order_title_box">
+                <h2>장바구니</h2>
+                <div class="order_guide">
+                    <span class="on">1.장바구니</span> <span>&gt;</span> <span>2.주문결제</span> <span>&gt;</span>
+                    <span>3.주문완료</span>
+                </div>
+            </div>
+            <div class="cart_body">
+                <div class="cart_list_box payment_list_box">
+                    <div class="cart_list">
+                        <h3>전체장바구니</h3>
+                        <span>(2)개의 장바구니 상품</span>
+                    </div>
+                    <ul class="cart_list_top">
+                        <li>
+                            <input type="checkbox" name="cart_allSelect" id="cart_allSelect" checked="">
+                            <label for="cart_allSelect">전체선택</label>
+                            <button>선택삭제</button>
+                            <button class="estimate_printBtn">견적서출력</button>
+                        </li>
+                        <li>상품정보(옵션)</li>
+                        <li>구매금액</li>
+                        <li>배송비(업체)</li>
+                    </ul>
+
+
+                    <div class="cart_ddd_title">판매자배송 상품</div>
+                    <div class="table_wrap cart_client_prodList_box">
+
+
+
+
+                        <div class="table_row" key="1-271-0-2-12634"
+                            shipment="{seq:271,jeju_price:0,mountain_price:0,package_type:1,package_seq:0,delivery_type:0,delivery_fee:0,delivery_free_condition:0,return_price:0}">
+                            <div class="cart_prodList cart_ddd_prodList table-cell">
+
+
+
+                                <div class="cart_item" min="0" info-seq="2-12634">
+                                    <div class="cart_prod cart_ddd_prod table-cell">
+                                        <div class="cart_checkBtn">
+                                            <input type="checkbox" name="sc_ft_soldOut" id="sc_ft_soldOut_235284"
+                                                checked="">
+                                            <label class="fil_space" for="sc_ft_soldOut_235284"></label>
+                                        </div>
+                                        <div class="cart_thumbnail"
+                                            style="background-image: url('https://image.ddakpet.com/upload_operate/shop/7419/product/DDAKPET_896d0b9a-bb8d-48b3-9935-13ea73626054_t.jpg')">
+                                        </div>
+                                        <ul class="cart_prod_text">
+                                            <li>모래</li>
+                                            <li>
+                                                <b class="op_p_name">[에버크린] 무향 (UN)</b>
+
+
+                                            </li>
+                                            <li><button>옵션추가/변경</button></li>
+
+                                            <li class="cart_prod_option" seq="235284" option="2-12634-53266">
+                                                <span class="cart_color">용량: 19kg</span>
+                                                <span class="cart_p">43,000</span>
+                                                <div class="option_count_select">
+                                                    <div class="option_count_select_box">
+                                                        <button type="button" class="option_count_btn down">
+                                                            <!-- button 으로 변경 -->
+                                                            <i class="fa-solid fa-minus"></i>
+                                                        </button>
+                                                        <!-- 플러스, 마이너스 버튼 누를 시 숫자 카운트 되게 부탁드립니다. -->
+                                                        <input type="number" class="option_count" price="43000"
+                                                            seq="2-12634-53266" value="0" max="0" min="0">
+                                                        <!-- input text 로 변경 -->
+                                                        <button type="button" class="option_count_btn up">
+                                                            <!-- button 으로 변경 -->
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <!-- <button class="cart_changeBtn">변경</button>  -->
+                                                <span class="cart_m_sum">0</span>
+                                                <button class="cart_xBtn">
+                                                    <i class="fa-solid fa-xmark"></i>
+                                                </button>
+
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="cart_ddd_pice table-cell">
+                                        <p><span class="o_tp">0</span>원</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="cart_ddd_store table-cell">
+                                <ul>
+
+
+
+
+                                    <li data-id="7419" onclick="goMinishop(7419)">
+                                        <!-- 상점로고 추가 -->
+
+                                        <div class="shop_logo"
+                                            style="background-image:url('https://image.ddakpet.com/upload_operate/shop/7419/logo/DDAKPET_28b0fe5c-fe0b-41c1-bf04-d0e974939fb5_t.jpg')">
+                                        </div>
+
+
+                                        (주)퍼스트무버
+                                    </li>
+                                    <li style="white-space: pre-line;">무료 배송<br>0원</li>
+                                    <li class="d_tp">0</li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="cart_client_sum cart_sum_box" for="1-271-0-2-12634">
+                            <ul shop-id="7419">
+                                <li>상품가격 <b class="package_prod_price">0</b> 원</li>
+                                <li class="cart_ddd_sum_equals">
+                                    <i class="fa-solid fa-plus"></i>
+                                </li>
+                                <li>배송비 <b class="package_delivery_price">0</b> 원</li>
+                                <li class="cart_ddd_sum_equals">
+                                    <i class="fa-solid fa-equals"></i>
+                                </li>
+                                <li>합계 <b class="package_total_price">0</b> 원</li>
+
+                            </ul>
+                        </div>
+
+
+
+
+
+
+
+
+                        <div class="table_row" key="0-280-880"
+                            shipment="{seq:280,jeju_price:0,mountain_price:0,package_type:0,package_seq:880,delivery_type:2,delivery_fee:3000,delivery_free_condition:50000,return_price:0}">
+                            <div class="cart_prodList cart_ddd_prodList table-cell">
+
+
+
+                                <div class="cart_item" min="0" info-seq="2-29261">
+                                    <div class="cart_prod cart_ddd_prod table-cell">
+                                        <div class="cart_checkBtn">
+                                            <input type="checkbox" name="sc_ft_soldOut" id="sc_ft_soldOut_641202"
+                                                checked="">
+                                            <label class="fil_space" for="sc_ft_soldOut_641202"></label>
+                                        </div>
+                                        <div class="cart_thumbnail"
+                                            style="background-image: url('https://image.ddakpet.com/upload_operate/shop/7649/product/DDAKPET_d3844c96-44aa-4c17-b096-f6daca1ae3ea_t.jpg')">
+                                        </div>
+                                        <ul class="cart_prod_text">
+                                            <li>카시트</li>
+                                            <li>
+                                                <b class="op_p_name">[베럴즈] 카시트 ver.2</b>
+
+                                                <span>오프라인</span>
+
+
+                                            </li>
+                                            <li><button>옵션추가/변경</button></li>
+
+                                            <li class="cart_prod_option" seq="641202" option="2-29261-138700">
+                                                <span class="cart_color">색상: 오렌지색</span>
+                                                <span class="cart_p">87,500</span>
+                                                <div class="option_count_select">
+                                                    <div class="option_count_select_box">
+                                                        <button type="button" class="option_count_btn down">
+                                                            <!-- button 으로 변경 -->
+                                                            <i class="fa-solid fa-minus"></i>
+                                                        </button>
+                                                        <!-- 플러스, 마이너스 버튼 누를 시 숫자 카운트 되게 부탁드립니다. -->
+                                                        <input type="number" class="option_count" price="87500"
+                                                            seq="2-29261-138700" value="1" max="15" min="0">
+                                                        <!-- input text 로 변경 -->
+                                                        <button type="button" class="option_count_btn up">
+                                                            <!-- button 으로 변경 -->
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <!-- <button class="cart_changeBtn">변경</button>  -->
+                                                <span class="cart_m_sum">87,500</span>
+                                                <button class="cart_xBtn">
+                                                    <i class="fa-solid fa-xmark"></i>
+                                                </button>
+
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="cart_ddd_pice table-cell">
+                                        <p><span class="o_tp">87,500</span>원</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="cart_ddd_store table-cell">
+                                <ul>
+
+
+
+
+                                    <li data-id="7649" onclick="goMinishop(7649)">
+                                        <!-- 상점로고 추가 -->
+
+                                        <div class="shop_logo"
+                                            style="background-image:url('https://image.ddakpet.com/upload_operate/shop/7649/logo/DDAKPET_0ad8bd25-82bf-49b4-8f9b-15cd38afc218_t.jpg')">
+                                        </div>
+
+
+                                        우프바이베럴즈
+                                    </li>
+                                    <li style="white-space: pre-line;">조건부 무료<br>50,000원 미만 구매시 3,000원</li>
+                                    <li class="d_tp">0</li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="cart_client_sum cart_sum_box" for="0-280-880">
+                            <ul shop-id="7649">
+                                <li>상품가격 <b class="package_prod_price">87,500</b> 원</li>
+                                <li class="cart_ddd_sum_equals">
+                                    <i class="fa-solid fa-plus"></i>
+                                </li>
+                                <li>배송비 <b class="package_delivery_price">0</b> 원</li>
+                                <li class="cart_ddd_sum_equals">
+                                    <i class="fa-solid fa-equals"></i>
+                                </li>
+                                <li>합계 <b class="package_total_price">87,500</b> 원</li>
+
+                                <li class="cart_bundle" style="display: none;">
+                                    <p>
+                                        <span>0원</span> 이상 추가 구매 시 배송비 무료!
+                                    </p>
+                                    <button>묶음배송가능상품
+                                        <p>
+                                            <i class="fa-solid fa-angle-down"></i>
+                                        </p>
+                                    </button>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="cart_bundle_slideBox" for="0-280-880">
+                            <h3>묶음배송 가능 상품</h3>
+                            <div class="cate_bundle_item_nav product_slide_nav">
+                                <button class="bundle_item_prev swiper-button-disabled" tabindex="0" role="button"
+                                    aria-label="Previous slide" aria-disabled="true"></button>
+                                <button class="bundle_item_next" tabindex="0" role="button" aria-label="Next slide"
+                                    aria-disabled="false"></button>
+                            </div>
+                            <div class="cart_bundle_slide swiper">
+                                <ul class="swiper-wrapper">
+
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <!-- 판매자배송 상품 총금액 -->
+                        <div class="cart_ddd_sum client">
+                            <ul>
+                                <li>상품가격 <b class="partner_prod_price">87,500</b> 원</li>
+                                <li class="cart_ddd_sum_equals">
+                                    <i class="fa-solid fa-plus"></i>
+                                </li>
+                                <li>배송비 <b class="partner_delivery_price">0</b> 원</li>
+                                <li class="cart_ddd_sum_equals">
+                                    <i class="fa-solid fa-equals"></i>
+                                </li>
+                                <li>합계 <b class="partner_total_price">87,500</b> 원</li>
+                            </ul>
+                            <div class="client_moreBtn"></div>
+                            <!-- 판매자배송별 상품 총금액 상세보기 영역 -->
+                            <div class="cart_client_sum_detail">
+                                <div shop-id="7419"><span>
+
+
+
+
+
+                                        (주)퍼스트무버
+                                    </span>
+                                    <ul>
+                                        <li>상품가격 <b class="partner_prod_price_7419">0</b>원</li>
+                                        <li class="cart_ddd_sum_equals"><i class="fa-solid fa-plus"></i></li>
+                                        <li>배송비 <b class="partner_delivery_price_7419">0</b>원</li>
+                                        <li class="cart_ddd_sum_equals"><i class="fa-solid fa-equals"></i></li>
+                                        <li>합계 <b class="partner_total_price_7419">0</b>원</li>
+                                    </ul>
+                                </div>
+                                <div shop-id="7649"><span>
+
+
+
+
+
+                                        우프바이베럴즈
+                                    </span>
+                                    <ul>
+                                        <li>상품가격 <b class="partner_prod_price_7649">87,500</b>원</li>
+                                        <li class="cart_ddd_sum_equals"><i class="fa-solid fa-plus"></i></li>
+                                        <li>배송비 <b class="partner_delivery_price_7649">0</b>원</li>
+                                        <li class="cart_ddd_sum_equals"><i class="fa-solid fa-equals"></i></li>
+                                        <li>합계 <b class="partner_total_price_7649">87,500</b>원</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cart_payment_box payment_right_box">
+                    <ul class="cart_payment">
+                        <li>결제 예정 금액</li>
+                        <li class="cart_payment_text">
+                            <span>상품금액</span>
+                            <p class="cart_price"><span class="cart_product_price">87,500</span>원</p>
+                        </li>
+                        <li class="cart_payment_text">
+                            <span>할인금액</span>
+                            <p class="cart_price"><span>0</span>원</p>
+                        </li>
+                        <li class="cart_payment_text">
+                            <span>배송비</span>
+                            <p class="cart_price"><span class="cart_delivery_price">0</span>원</p>
+                        </li>
+                        <li>총 결제 금액</li>
+                        <li><strong class="cart_total_price">87,500</strong> 원</li>
+                        <li class="cart_payment_btn"><button>주문하기</button></li>
+
+                    </ul>
+
+                    <div class="cart_online_ban">
+                        <span><img src="../img/online_ban.png" width="50" alt=""></span>
+                        <span>
+                            <h2>온라인 판매 불가</h2>
+                            <p>
+                                <strong>온라인 판매 금지 상품</strong>이 장바구니에 있습니다. <br> 온라인 판매 시 법적
+                                책임을 물을 수 있습니다.
+                            </p>
+                        </span>
+                    </div>
+
+                    <!-- 함께 구매하면 좋은 상품 슬라이드 -->
+                    <!-- 추가 필요  -->
+
+                    <div class="together_item_box">
+                        <h3>함께 구매하면 좋은 상품</h3>
+                        <div class="together_item_nav product_slide_nav">
+                            <button class="together_item_prev" tabindex="0" role="button"
+                                aria-label="Previous slide"></button>
+                            <button class="together_item_next" tabindex="0" role="button"
+                                aria-label="Next slide"></button>
+                        </div>
+                        <div
+                            class="together_item_slide swiper swiper-container-initialized swiper-container-horizontal">
+                            <ul class="swiper-wrapper"
+                                style="transition-duration: 0ms; transform: translate3d(-330px, 0px, 0px);">
+                                <li class="box box_row swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                                    info-seq="2-2802" data-swiper-slide-index="19"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/1551/product/DDAKPET_d9120191-f5be-4644-bd94-dd149743d190_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[에버그로] 펫밀크 3종</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            1,250<span>원 ~</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+
+
+
+
+
+
+
+
+
+                                <li class="box box_row swiper-slide swiper-slide-active" info-seq="2-10686"
+                                    data-swiper-slide-index="0" style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/1695/product/DDAKPET_d92468de-bd9a-4221-abe3-9bc130b4e2db_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[오드펫] 또또또 친구들 체크 UV썬캡 (6color)</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            5,838<span>원 ~</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+
+
+
+
+
+
+                                            <li class="ddak_month_bg">딱한달</li>
+
+
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide swiper-slide-next" info-seq="2-27306"
+                                    data-swiper-slide-index="1" style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/14253/product/DDAKPET_cd33e3b5-e116-4297-a302-9eeafe354b64_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[어서오시개] 체리 레이스 슬리브 티셔츠</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            4,000<span>원 </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-2925" data-swiper-slide-index="2"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/1551/product/DDAKPET_a68be856-ead2-4f72-908b-c7918cf1dcbd_t.png')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[웁스] 배변패드 6종</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            6,790<span>원 ~</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-5883" data-swiper-slide-index="3"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/2279/product/DDAKPET_9e39b125-add8-4746-b6a7-50c70669db5f_t.png')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[애구애구] 라텍스 신발</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            2,200<span>원 ~</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-7222" data-swiper-slide-index="4"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/2279/product/DDAKPET_16d19d44-3252-4954-b335-cb56e3664f39_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[애구애구] 이갈이 애착 인형 16종</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            700<span>원 ~</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-27307" data-swiper-slide-index="5"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/14253/product/DDAKPET_d5b69cde-dfc8-401d-bd54-8fe727e2b744_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[어서오시개] 체리 서스펜더 스커트</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            4,000<span>원 ~</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-27309" data-swiper-slide-index="6"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/14253/product/DDAKPET_e9d5a228-9074-4719-a10e-db169ce8a9c2_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[어서오시개] 캐주얼 테디베어 티셔츠</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            3,500<span>원 </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-28064" data-swiper-slide-index="7"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/14253/product/DDAKPET_25a28434-151a-4e25-8a92-e662464c292b_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[어서오시개] 봄꽃 원피스</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            5,500<span>원 </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-18764" data-swiper-slide-index="8"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/9738/product/DDAKPET_d7e451ee-f3df-4891-a14a-89b130b5fe7f_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[준성] 체크 레이스 원피스 강아지옷</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            6,230<span>원 </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+                                            <li class="offline_bg">오프라인</li>
+
+
+
+
+
+
+
+                                            <li class="ddak_month_bg">딱한달</li>
+
+
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-17951" data-swiper-slide-index="9"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/1785/product/copy_b6ce0c05-932d-4ba5-8681-0f2357763084_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[이나바] 챠오츄르 11종</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            1,990<span>원 ~</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-27311" data-swiper-slide-index="10"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/14253/product/DDAKPET_ab4cc620-b3c8-46e3-b640-c9149096da0b_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[어서오시개] 디저트 나시티</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            3,000<span>원 </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-29469" data-swiper-slide-index="11"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/15652/product/DDAKPET_744a906c-b731-4e2d-a611-4954e2995fd9_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[패리스독] 피너츠 슈가 스트라이프 티셔츠</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            9,800<span>원 ~</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-28676" data-swiper-slide-index="12"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/1551/product/DDAKPET_ee3d893e-fad9-4bb8-8a31-61681ac46efb_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[킹콩] 1KG 대용량 간식 6종</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            10,740<span>원 ~</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+                                            <li class="offline_bg">오프라인</li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-19188" data-swiper-slide-index="13"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/1551/product/DDAKPET_b3b4bdba-486a-4247-b402-a3c0922e5560_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[참좋은간식] 길개먹개 4종</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            1,000<span>원 </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-27312" data-swiper-slide-index="14"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/14253/product/DDAKPET_9fc8974e-adf8-4ef4-8a85-f1c78270e888_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[어서오시개] 랜턴 스커트</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            5,500<span>원 </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-28063" data-swiper-slide-index="15"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/14253/product/DDAKPET_5d8462a7-8368-4304-9f51-dfbd50842045_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[어서오시개] 테디베어 줄가라 티셔츠</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            4,500<span>원 </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-6041" data-swiper-slide-index="16"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/2279/product/DDAKPET_60df5fba-2c5d-44e6-9284-2a0084c0cb55_t.png')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[애구애구] 일회용 양말 신발 붕대</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            600<span>원 ~</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-29472" data-swiper-slide-index="17"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/15652/product/DDAKPET_bf3513a6-8f23-4596-ba1f-64a831918ff5_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[패리스독] 피너츠 토크 티셔츠</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            9,800<span>원 ~</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide" info-seq="2-32511" data-swiper-slide-index="18"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/4704/product/DDAKPET_b4690fb5-5856-473f-ad91-451fec1561a7_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[딸구네댕댕이옷짱] 매쉬 플라워 리본 하네스</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            11,500<span>원 </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="box box_row swiper-slide swiper-slide-duplicate-prev" info-seq="2-2802"
+                                    data-swiper-slide-index="19" style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/1551/product/DDAKPET_d9120191-f5be-4644-bd94-dd149743d190_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[에버그로] 펫밀크 3종</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            1,250<span>원 ~</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+
+
+                                <li class="box box_row swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                    info-seq="2-10686" data-swiper-slide-index="0"
+                                    style="width: 320px; margin-right: 10px;">
+                                    <div class="img"
+                                        style="background-image:url('https://image.ddakpet.com/upload_operate/shop/1695/product/DDAKPET_d92468de-bd9a-4221-abe3-9bc130b4e2db_t.jpg')">
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">[오드펫] 또또또 친구들 체크 UV썬캡 (6color)</p>
+                                        <div class="info_inner sort_box">
+                                            <div class="info_box sort_box">
+
+
+                                                <div class="price_box sort">
+                                                    <div class="sort">
+                                                        <div class="price">
+                                                            5,838<span>원 ~</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sort_r sort_box">
+                                                    <div class="cart_box">
+                                                        <div class="cart"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <ul class="badge">
+
+
+
+
+
+
+
+
+                                            <li class="ddak_month_bg">딱한달</li>
+
+
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_menu">
+            <ul>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">입점/제휴문의</a></li>
+                <li><a href="#">개인정보 처리방침</a></li>
+            </ul>
+        </div>
+        <div class="footer_inner">
+            <div class="sort_box">
+                <div class="sort contact">
+                    <h2>고객센터<br>042-864-0305</h2>
+                    <span>
+                        <p>운영시간</p>
+                        <p>월 ~ 금 10:00~17:30</p>
+                    </span>
+                    <span>
+                        <p>점심시간</p>
+                        <p>12:00~13:00</p>
+                    </span>
+                    <span class="kakao">
+                        <p>카카오 플러스친구 : 딱펫</p>
+                        <p>Email : help@ddakpet.com</p>
+                    </span>
+                </div>
+                <div class="sort about">
+                    <span>
+                        <p><a href="#">주식회사 팀삼층</a></p>
+                        <p>대표이사: 최윤환, 김교근</p>
+                    </span>
+                    <span>
+                        <p>사업자등록번호 : 399-87-00750</p>
+                        <p><a href="#">사업자정보확인</a></p>
+                    </span>
+                    <span>통신판매업신고 : 2020-대전대덕-0263</span>
+                    <span>대전광역시 대덕구 대화로139번길 33 4층</span>
+                    <span>입점문의 : ye@ddakpet.com</span>
+                </div>
+                <div class="sort check">
+                    <span><b>기업은행 안심이체 확인</b></span>
+                    <span>
+                        당사는 고객님이 현금 결제한 금액에 대해<br>
+                        기업은행 안심이체 서비스를 이용하여<br>
+                        안전거래를 보장하고 있습니다.
+                    </span>
+                    <a href="#">서비스가입사실 확인</a>
+                </div>
+            </div>
+            <div class="copy">
+                <span>개별 판매자가 등록한 마켓플레이스(오픈마켓) 상품에 대한 광고, 상품주문, 배송 및 환불의 의무와 책임은 각 판매자가 부담하고,<br>
+                    이에 대하여 (주)팀삼층은 통신판매중개자로서 통신판매의 당사자가 아니므로 일체 책임을 지지 않습니다.</span>
+                <p>© DDAKPET. All rights reserved.</p>
+            </div>
+            <div class="footer_logo">
+                <a href="#" class="sort ddakpet_logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124.07 134.16">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: #2ea8df;
+                                }
+    
+                                .cls-2 {
+                                    fill: #fff;
+                                }
+    
+                                .cls-3 {
+                                    fill: #ffe800;
+                                    fill-rule: evenodd;
+                                }
+                            </style>
+                        </defs>
+                        <g id="Layer_2" data-name="Layer 2">
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <path class="cls-1"
+                                    d="M124.07,49.45a31,31,0,0,0-31-31c-.88,0-1.75.05-2.61.12a31,31,0,0,0-56.81,0c-.86-.07-1.73-.12-2.61-.12a31,31,0,0,0-25.3,49,31,31,0,0,0,25.3,49c1,0,1.93,0,2.88-.14a31,31,0,0,0,56.27,0c1,.09,1.91.14,2.88.14a31,31,0,0,0,25.3-48.95A30.93,30.93,0,0,0,124.07,49.45Z" />
+                                <path class="cls-2"
+                                    d="M26.53,34.57v8.17A12.88,12.88,0,1,0,33,53.89V28.13S26.53,28.56,26.53,34.57ZM20.09,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,20.09,60.33Z" />
+                                <path class="cls-2"
+                                    d="M54.21,34.57v8.17a12.87,12.87,0,1,0,6.45,11.15V28.13S54.21,28.56,54.21,34.57ZM47.77,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,47.77,60.33Z" />
+                                <path class="cls-2"
+                                    d="M82.71,43.24a12.88,12.88,0,1,0-7.23,23.53,12.91,12.91,0,0,0,6.44-1.72h0s2.12,1.72,6.44,1.72V53.89A12.84,12.84,0,0,0,82.71,43.24ZM75.48,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,75.48,60.33Z" />
+                                <path class="cls-2"
+                                    d="M106.35,66.63H115L105.1,53.34,113.93,41a27.61,27.61,0,0,0-4.72.07A6.81,6.81,0,0,0,105.1,43l-5.52,6.9v0l-2.67,3.31V33.77c-.09-1.76-.93-5.56-6.45-5.56V66.85h6.45V63.27l3.85-4.67Z" />
+                                <path class="cls-2"
+                                    d="M79.18,95.11h5.44v7.13H79.18Zm1.32,6h2.81V96.27H80.5ZM88.14,97H90v1.32H88.14v4.21H86.79V93h1.35Z" />
+                                <path class="cls-2"
+                                    d="M93.55,95a2.84,2.84,0,0,1,1.2.25,3.19,3.19,0,0,1,1,.71,3.08,3.08,0,0,1,.66,1,3.68,3.68,0,0,1,0,2.56,3.08,3.08,0,0,1-.66,1,3.37,3.37,0,0,1-1,.71,3,3,0,0,1-2.38,0,3.24,3.24,0,0,1-1-.71,2.92,2.92,0,0,1-.65-1,3.53,3.53,0,0,1,0-2.56,2.92,2.92,0,0,1,.65-1,3.08,3.08,0,0,1,1-.71A2.81,2.81,0,0,1,93.55,95Zm0,5.18A1.89,1.89,0,0,0,95.21,99a1.93,1.93,0,0,0,0-1.49,2.12,2.12,0,0,0-.39-.61,1.92,1.92,0,0,0-.57-.39,1.69,1.69,0,0,0-.7-.15,1.65,1.65,0,0,0-.69.15,1.92,1.92,0,0,0-.57.39,1.77,1.77,0,0,0-.39.61,2.05,2.05,0,0,0,0,1.49,1.45,1.45,0,0,0,.39.59,1.69,1.69,0,0,0,.57.42A1.65,1.65,0,0,0,93.55,100.19Zm6.34,2.29H98.53V93h1.36Z" />
+                                <path class="cls-2"
+                                    d="M110.44,98.57v1.21h-9.25V98.57h2.34V96.89h1.29v1.68h2V96.89h1.3v1.68Zm-4.63-4-3,2.85-1.06-.78,4-3.82,4.07,3.82-1.08.78Zm2.09,5.89h1.32v4.27h-6.8v-4.4h1.35v1.08h4.13Zm0,2.1h-4.12v1.14h4.12Z" />
+                                <path class="cls-2" d="M104.18,32.44h-1.92v-1h4.9v1h-1.91v5.71h-1.07Z" />
+                                <path class="cls-2"
+                                    d="M107.86,31.47h1.57L111,36.71l1.53-5.24h1.58v6.68h-1V32.86l-1.62,5.29h-1l-1.63-5.29v5.29h-1Z" />
+                                <path class="cls-2"
+                                    d="M69.13,72.25v38.43s4.31,0,6.41-2.29V78.66S76.28,72.25,69.13,72.25Z" />
+                                <path class="cls-2"
+                                    d="M22.39,74.61A12.81,12.81,0,0,0,9.58,87.42V113s6.4-.43,6.4-6.4V98.51a12.81,12.81,0,1,0,6.41-23.9Zm0,19.22a6.41,6.41,0,1,1,6.4-6.41A6.41,6.41,0,0,1,22.39,93.83Z" />
+                                <path class="cls-2"
+                                    d="M49.76,93.81a6.39,6.39,0,0,1-6.38-6.39,5.89,5.89,0,0,1,.16-1.4,6.37,6.37,0,0,1,12.27-.63,49.91,49.91,0,0,0,6.63.17,12.81,12.81,0,0,0-22.82-6,12.14,12.14,0,0,0-1,1.59A12.81,12.81,0,1,0,61.76,91.92,35.51,35.51,0,0,1,55,91.09,6.37,6.37,0,0,1,49.76,93.81Z" />
+                                <path class="cls-3"
+                                    d="M62.81,91.47A34,34,0,0,1,51,89.39a26.78,26.78,0,0,1-11.79-8.25.62.62,0,0,1,.1-.87.59.59,0,0,1,.38-.14.65.65,0,0,1,.49.23v0h0c4.3,3.65,11.68,5.75,20.24,5.75,12.66,0,24.6-4.36,29.72-10.86a.83.83,0,0,1,.62-.36A.46.46,0,0,1,91,75a.62.62,0,0,1,.28.83,26.87,26.87,0,0,1-9.88,10.48,35,35,0,0,1-14.85,5C65.28,91.4,64,91.47,62.81,91.47Z" />
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

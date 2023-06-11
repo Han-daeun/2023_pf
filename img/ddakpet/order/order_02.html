@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--reset & normalize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!--swiper-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>주문결제</title>
+    <link rel="stylesheet" href="../css/myshop_common.css">
+    <link rel="stylesheet" href="../css/myshop_main.css">
+    <link rel="stylesheet" href="../css/myshop_support.css">
+    <link rel="stylesheet" href="../css/myshop_intro.css">
+    <link rel="stylesheet" href="../css/myshop_mypage.css">
+    <link rel="stylesheet" href="../css/myshop_mypage_02.css">
+    <link rel="stylesheet" href="../css/myshop_mypage_03.css">
+    <link rel="stylesheet" href="../css/myshop_order.css">
+    <link rel="stylesheet" href="../css/myshop_option.css">
+    <script src="../js/myshop_common.js"></script>
+    <script src="../js/myshop_order.js"></script>
+    <script src="../js/myshop_product.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="category">
+            <button class="cate_close"></button>
+            <div class="sort_box cate_user">
+                <div class="sort"></div>
+                <span class="sort sort_box">
+                    <p class="sort">팀삼층</p>
+                    <p class="sort">님</p>
+                </span>
+            </div>
+            <div class="cate_select sort_box">
+                <div class="sort">
+                    <input name="cate_type" type="radio" id="cate_type_dog" checked="checked" />
+                    <label for="cate_type_dog"><span></span>강아지</label>
+                </div>
+                <div class="sort">
+                    <input name="cate_type" type="radio" id="cate_type_cat" />
+                    <label for="cate_type_cat"><span></span>고양이</label>
+                </div>
+                <div class="sort">
+                    <input name="cate_type" type="radio" id="cate_type_small" />
+                    <label for="cate_type_small"><span></span>소동물</label>
+                </div>
+            </div>
+            <div class="main_category_list">
+				<h3>카테고리</h3>
+				<ul>
+					<li class=""><a href="">사료</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">건식사료</a></li>
+								<li><a href="#">습식사료</a></li>
+								<li><a href="#">소프트사료</a></li>
+								<li><a href="#">처방사료</a></li>
+								<li><a href="#">동결건조</a></li>
+								<li><a href="#">분유</a></li>
+								<li><a href="#">수제사료</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div></li>
+					<li><a href="">간식</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">습식</a></li>
+								<li><a href="#">져키</a></li>
+								<li><a href="#">소시지</a></li>
+								<li><a href="#">스낵</a></li>
+								<li><a href="#">트릿</a></li>
+								<li><a href="#">음료/유제품</a></li>
+								<li><a href="#">수제간식</a></li>
+								<li><a href="#">동결건조</a></li>
+								<li><a href="#">껌</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/12573/product/DDAKPET_d5c245dc-c5f7-46f8-81ed-33defb078d5b_t.jpg" alt=""> <span class="recommand_badge"> <img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴코어] 씨푸드스틱 20P 2종</span>
+								</div>
+							</div>
+						</div></li>
+					<li>
+						<a href="">하우스</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">하우스</a></li>
+								<li><a href="#">방석</a></li>
+								<li><a href="#">펜스</a></li>
+								<li><a href="#">계단</a></li>
+								<li><a href="#">매트</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">식기</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">급식기</a></li>
+								<li><a href="#">급수기</a></li>
+								<li><a href="#">식탁</a></li>
+								<li><a href="#">휴대용</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">미용</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">브러쉬</a></li>
+								<li><a href="#">이발기</a></li>
+								<li><a href="#">가위</a></li>
+								<li><a href="#">염색약</a></li>
+								<li><a href="#">발/발톱</a></li>
+								<li><a href="#">보관/관리</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">장난감</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">로프</a></li>
+								<li><a href="#">봉제</a></li>
+								<li><a href="#">공/원반</a></li>
+								<li><a href="#">노즈워크/IQ</a></li>
+								<li><a href="#">전자기기</a></li>
+								<li><a href="#">훈련용</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">외출</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">하네스</a></li>
+								<li><a href="#">목줄</a></li>
+								<li><a href="#">리드줄</a></li>
+								<li><a href="#">자동줄</a></li>
+								<li><a href="#">가방</a></li>
+								<li><a href="#">켄넬</a></li>
+								<li><a href="#">캐리어</a></li>
+								<li><a href="#">유모차</a></li>
+								<li><a href="#">카시트</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">패션</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">티셔츠</a></li>
+								<li><a href="#">올인원</a></li>
+								<li><a href="#">원피스</a></li>
+								<li><a href="#">아우터</a></li>
+								<li><a href="#">시즌</a></li>
+								<li><a href="#">잡화/액세서리</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">위생</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">물티슈</a></li>
+								<li><a href="#">세정제</a></li>
+								<li><a href="#">탈취제/소독제</a></li>
+								<li><a href="#">도구</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">건강</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">영양제</a></li>
+								<li><a href="#">관리</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">배변</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">패드</a></li>
+								<li><a href="#">배변판</a></li>
+								<li><a href="#">기저귀/매너벨트</a></li>
+								<li><a href="#">배변봉투</a></li>
+								<li><a href="#">배변유도제</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="">기타</a>
+						<div class="main_category_depth2">
+							<div class="main_category_bannerBox">
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_5.png" width="200">
+								</a>
+								<a href="#">
+									<img alt="" src="img/plan_sample_banner_4.png" width="200">
+								</a>
+							</div>
+							<ul>
+								<li><a href="#">팬시</a></li>
+								<li><a href="#">서적</a></li>
+								<li><a href="#">음반</a></li>
+								<li><a href="#">CCTV</a></li>
+								<li><a href="#">기타</a></li>
+							</ul>
+							<div class="main_category_recommend">
+								<div>
+									<div class="category_recommend_img">
+										<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+										<span class="recommand_badge">
+											<img src="img/badge_md.png" alt="">
+										</span>
+									</div>
+									<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+        </div>
+        <div class="category_bg"></div>
+        <div class="top"></div>
+        <div class="sort_box top_gnb">
+            <a href="#" class="sort ddakpet_logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124.07 134.16">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: #2ea8df;
+                            }
+
+                            .cls-2 {
+                                fill: #fff;
+                            }
+
+                            .cls-3 {
+                                fill: #ffe800;
+                                fill-rule: evenodd;
+                            }
+                        </style>
+                    </defs>
+                    <g id="Layer_2" data-name="Layer 2">
+                        <g id="Layer_1-2" data-name="Layer 1">
+                            <path class="cls-1"
+                                d="M124.07,49.45a31,31,0,0,0-31-31c-.88,0-1.75.05-2.61.12a31,31,0,0,0-56.81,0c-.86-.07-1.73-.12-2.61-.12a31,31,0,0,0-25.3,49,31,31,0,0,0,25.3,49c1,0,1.93,0,2.88-.14a31,31,0,0,0,56.27,0c1,.09,1.91.14,2.88.14a31,31,0,0,0,25.3-48.95A30.93,30.93,0,0,0,124.07,49.45Z" />
+                            <path class="cls-2"
+                                d="M26.53,34.57v8.17A12.88,12.88,0,1,0,33,53.89V28.13S26.53,28.56,26.53,34.57ZM20.09,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,20.09,60.33Z" />
+                            <path class="cls-2"
+                                d="M54.21,34.57v8.17a12.87,12.87,0,1,0,6.45,11.15V28.13S54.21,28.56,54.21,34.57ZM47.77,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,47.77,60.33Z" />
+                            <path class="cls-2"
+                                d="M82.71,43.24a12.88,12.88,0,1,0-7.23,23.53,12.91,12.91,0,0,0,6.44-1.72h0s2.12,1.72,6.44,1.72V53.89A12.84,12.84,0,0,0,82.71,43.24ZM75.48,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,75.48,60.33Z" />
+                            <path class="cls-2"
+                                d="M106.35,66.63H115L105.1,53.34,113.93,41a27.61,27.61,0,0,0-4.72.07A6.81,6.81,0,0,0,105.1,43l-5.52,6.9v0l-2.67,3.31V33.77c-.09-1.76-.93-5.56-6.45-5.56V66.85h6.45V63.27l3.85-4.67Z" />
+                            <path class="cls-2"
+                                d="M79.18,95.11h5.44v7.13H79.18Zm1.32,6h2.81V96.27H80.5ZM88.14,97H90v1.32H88.14v4.21H86.79V93h1.35Z" />
+                            <path class="cls-2"
+                                d="M93.55,95a2.84,2.84,0,0,1,1.2.25,3.19,3.19,0,0,1,1,.71,3.08,3.08,0,0,1,.66,1,3.68,3.68,0,0,1,0,2.56,3.08,3.08,0,0,1-.66,1,3.37,3.37,0,0,1-1,.71,3,3,0,0,1-2.38,0,3.24,3.24,0,0,1-1-.71,2.92,2.92,0,0,1-.65-1,3.53,3.53,0,0,1,0-2.56,2.92,2.92,0,0,1,.65-1,3.08,3.08,0,0,1,1-.71A2.81,2.81,0,0,1,93.55,95Zm0,5.18A1.89,1.89,0,0,0,95.21,99a1.93,1.93,0,0,0,0-1.49,2.12,2.12,0,0,0-.39-.61,1.92,1.92,0,0,0-.57-.39,1.69,1.69,0,0,0-.7-.15,1.65,1.65,0,0,0-.69.15,1.92,1.92,0,0,0-.57.39,1.77,1.77,0,0,0-.39.61,2.05,2.05,0,0,0,0,1.49,1.45,1.45,0,0,0,.39.59,1.69,1.69,0,0,0,.57.42A1.65,1.65,0,0,0,93.55,100.19Zm6.34,2.29H98.53V93h1.36Z" />
+                            <path class="cls-2"
+                                d="M110.44,98.57v1.21h-9.25V98.57h2.34V96.89h1.29v1.68h2V96.89h1.3v1.68Zm-4.63-4-3,2.85-1.06-.78,4-3.82,4.07,3.82-1.08.78Zm2.09,5.89h1.32v4.27h-6.8v-4.4h1.35v1.08h4.13Zm0,2.1h-4.12v1.14h4.12Z" />
+                            <path class="cls-2" d="M104.18,32.44h-1.92v-1h4.9v1h-1.91v5.71h-1.07Z" />
+                            <path class="cls-2"
+                                d="M107.86,31.47h1.57L111,36.71l1.53-5.24h1.58v6.68h-1V32.86l-1.62,5.29h-1l-1.63-5.29v5.29h-1Z" />
+                            <path class="cls-2"
+                                d="M69.13,72.25v38.43s4.31,0,6.41-2.29V78.66S76.28,72.25,69.13,72.25Z" />
+                            <path class="cls-2"
+                                d="M22.39,74.61A12.81,12.81,0,0,0,9.58,87.42V113s6.4-.43,6.4-6.4V98.51a12.81,12.81,0,1,0,6.41-23.9Zm0,19.22a6.41,6.41,0,1,1,6.4-6.41A6.41,6.41,0,0,1,22.39,93.83Z" />
+                            <path class="cls-2"
+                                d="M49.76,93.81a6.39,6.39,0,0,1-6.38-6.39,5.89,5.89,0,0,1,.16-1.4,6.37,6.37,0,0,1,12.27-.63,49.91,49.91,0,0,0,6.63.17,12.81,12.81,0,0,0-22.82-6,12.14,12.14,0,0,0-1,1.59A12.81,12.81,0,1,0,61.76,91.92,35.51,35.51,0,0,1,55,91.09,6.37,6.37,0,0,1,49.76,93.81Z" />
+                            <path class="cls-3"
+                                d="M62.81,91.47A34,34,0,0,1,51,89.39a26.78,26.78,0,0,1-11.79-8.25.62.62,0,0,1,.1-.87.59.59,0,0,1,.38-.14.65.65,0,0,1,.49.23v0h0c4.3,3.65,11.68,5.75,20.24,5.75,12.66,0,24.6-4.36,29.72-10.86a.83.83,0,0,1,.62-.36A.46.46,0,0,1,91,75a.62.62,0,0,1,.28.83,26.87,26.87,0,0,1-9.88,10.48,35,35,0,0,1-14.85,5C65.28,91.4,64,91.47,62.81,91.47Z" />
+                        </g>
+                    </g>
+                </svg>
+            </a>
+            <div class="sort_box sort">
+                <div class="sort cate_f on"><a href="#">스토어</a></div>
+                <div class="sort cate_f"><a href="#">커뮤니티</a></div>
+            </div>
+            <div class="sort search">
+                <input type="text" onclick="search_form_open_toggle();">
+                <button></button>
+                
+
+                <div class="search_form">
+					<button class="search_form_closeBtn" onclick="search_form_close_toggle();">닫기</button>
+					<div class="search_recommand">
+						<h3>지금 만나보세요!</h3>
+						<div>
+							<div class="search_recommend_img">
+								<img src="https://image.ddakpet.com/upload_operate/shop/1785/product/DDAKPET_url_20211223033059_t.jpg" alt="">
+								<span class="recommand_badge">
+									<img src="../img/badge_md.png" alt="">
+								</span>
+							</div>
+							<span>[네츄럴랩] 케어3 피부&amp;알러지 (강아지)</span>
+						</div>
+					</div>
+					<div class="search_keyword">
+						<h3>최근 검색어</h3>
+						<span class="none">최근 검색어가 없습니다.</span>
+						<ul>
+							<li><span>포메 사료</span>
+								<div class="keyword_delete"></div></li>
+							<li><span>강아지 노즈워크</span>
+								<div class="keyword_delete"></div></li>
+							<li><span>껌</span>
+								<div class="keyword_delete"></div></li>
+						</ul>
+					</div>
+					<div class="search_ranking">
+						<h3>실시간 쇼핑 검색어</h3>
+						<ul>
+                            <li><span>1</span>끙패드</li>
+                            <li><span>2</span>꽁치간식</li>
+                            <li><span>3</span>배변패드</li>
+                            <li><span>4</span>한복</li>
+                            <li><span>5</span>건식사료</li>
+                            <li><span>6</span>강아지 식기</li>
+                            <li><span>7</span>우비</li>
+                            <li><span>8</span>덴탈껌</li>
+                            <li><span>9</span>샴푸</li>
+                            <li><span>10</span>고구마</li>
+                        </ul>
+					</div>
+				</div>
+            </div>
+            <div class="sort ddakpet_ranking swiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <span>1.</span>
+                            <span>끙패드</span>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <span>2.</span>
+                            <span>사료</span>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <span>3.</span>
+                            <span>anf</span>
+                        </a>
+                    </li>
+                </ul>
+                <div>
+					<button class="ddakpet_ranking_btn ddakpet_ranking_dowm_btn" onclick="search_form_open_toggle()"></button>
+					<button class="ddakpet_ranking_btn ddakpet_ranking_up_btn"></button>
+				</div>
+            </div>
+            <div class="sort_r user_gnb">
+                <ul class="sort_box">
+                    <li class="sort user_gnb_l gnb_01">
+                        <a href="#">마이페이지</a>
+                        <ul>
+                            <li><a href="#">주문배송/조회</a></li>
+                            <li><a href="#">취소/반품/교환</a></li>
+                            <li><a href="#">퀵주문</a></li>
+                            <li><a href="#">단골샵</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">회원정보</a></li>
+                        </ul>
+                    </li>
+                    <li class="sort user_gnb_l"><a href="#">배송조회</a></li>
+                    <li class="sort user_gnb_l"><a href="#">장바구니</a></li>
+                    <li class="sort user_gnb_l"><a href="#">최근 본 상품</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="top_menu">
+            <div class="sort_box inner">
+                <button class="sort category_btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="sort">
+                    <li><a href="#">행사상품</a></li>
+                    <li><a href="#">기획전</a></li>
+                    <li><a href="#">신상품</a></li>
+                    <li class="ddak_month"><a href="#"><img src="../img/dd_fficial.svg" alt=""
+                        width="52"></a></li>
+            <li class="ddak_fficial"><a href="#"><img src="../img/dd_month.svg" alt=""
+                        width="52"></a></li>
+                </ul> 
+                <div class="sort_r">
+                    <div class="sort_box sort login_status" style="display: none;">
+                        <a href="myshop_login.html" class="sort">로그인</a>
+                        <a href="myshop_join.html" class="sort">회원가입</a>
+                    </div>
+                    <div class="sort_box sort info_status">
+                        <div class="sort info_my">
+                            <img src="img/grade_05.png" alt="" width="22">
+                            <a href="#"><span>팀삼층</span><span>님</span></a>
+                        </div>
+                        <div class="sort info_point"><span>30,000</span></div>
+                        <div class="sort info_cash"><span>2,000</span><button>충전</button></div>
+                        <div class="sort_box sort info_etc">
+                            <div class="sort alarm"></div>
+                            <button class="sort">로그아웃</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body_wrap">
+        <div class="canvas">
+            <div class="order_title_box">
+                <h2>주문결제</h2>
+                <div class="order_guide">
+                    <span>1.장바구니</span>
+                    <span>></span>
+                    <span class="on">2.주문결제</span>
+                    <span>></span>
+                    <span>3.주문완료</span>
+                </div>
+            </div>
+            <div class="order_body">
+                <div class="order_list_box">
+                    <div class="order_m_title">구매자 정보</div>
+                    <ul class="order_custInfor_box">
+                        <li>
+                            <div>구매자 명</div>
+                            <div><input type="text"></div>
+                        </li>
+                        <li>
+                            <div>연락처</div>
+                            <div><input type="text">
+                                <p>해당연락처로 주문 정보를 보내드립니다.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>비상 연락처</div>
+                            <div><input type="text">
+                                <p>본 연락처로 연락이 안 될 시 연락수단입니다.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="order_m_title">배송지 정보</div>
+                    <ul class="order_custInfor_box order_delivery">
+                        <li>
+                            <div>받는사람</div>
+                            <div><input type="text"></div>
+                        </li>
+                        <li>
+                            <div>배송지</div>
+                            <div>
+                                <input type="text" disabled>
+                                <input type="text" class="s_text" disabled>
+                                <div class="add_btn">
+                                    <button>배송주소록</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>연락처</div>
+                            <div><input type="text"></div>
+                        </li>
+                        <li>
+                            <div>비상연락처</div>
+                            <div><input type="text"></div>
+                        </li>
+                        <li>
+							<div class="request_messageBox">
+								배송시 요청사항
+								<div>
+									<input type="checkbox" name="store_message" id="store_message"> 
+									<label for="store_message">상점 별 메시지 입력</label>
+								</div>
+							</div>
+							<div>
+								<!-- 기본 입력창 -->
+								<div class="all_messageList" style="display: block;">
+									<select name="request_message" id="request_message" class="request_message" required="">
+										<option value="0">입력 안함</option>
+										<option value="1">직접 입력</option>
+										<option value="2">빠른 배송 부탁드립니다.</option>
+										<option value="3">부재시, 휴대폰으로 연락주세요.</option>
+										<option value="4">경비실이 없습니다. 배송 전, 연락주세요.</option>
+									</select>
+									<textarea class="order_deliText_box" style="display:none" name="request_other_message" onkeyup="otherCharCheck(this)" onkeydown="otherCharCheck(this)"></textarea>
+								</div>
+								<!-- 상점별 메시지 입력창 -->
+								<ul class="store_messageList" style="display: none;">
+									
+									
+										
+											
+											
+											
+											
+											
+											
+												
+												
+													
+													
+												
+													
+													
+														
+													
+												
+											
+											<li>
+												<span>
+													<p>우프바이베럴즈</p>
+													<p>[베럴즈] 카시트 ver.2  </p>
+													<textarea class="order_deliText_box" onkeyup="otherCharCheck(this)" onkeydown="otherCharCheck(this)"></textarea>
+												</span>
+											</li>
+										
+									
+								</ul>
+							</div>
+							<script>
+								$("input[name='store_message']").change(function(){
+									//상점별 메세지 입력
+									//all_messageList
+									//store_messageList
+									const checked = $(this)[0].checked;
+									if(checked){
+										//상점별 메세지 선택
+										$(".store_messageList").show();
+										$(".all_messageList").hide();
+									}else{
+										//전체 입력함
+										$(".all_messageList").show();
+										$(".store_messageList").hide();
+									}
+								});
+								
+								$("select[name='request_message']").change(function(){
+									//기본 입력창 변경
+									//value 1 이 직접 입력
+									const value = Number($(this).val());
+									if(value==1){
+										$(".order_deliText_box").show();
+									}else{
+										$(".order_deliText_box").hide();
+									}
+								});
+							</script>
+						</li>
+                        <li>
+                            <div class="table-cell">발주서</div>
+                        </li>
+                    </ul>
+
+                    <div class="order_m_title">주문상품 정보</div>
+                    <section class="order_prod_doby">
+                        <nav class="order_prod_list_box table">
+                            <ul class="order_prod_title table">
+                                <li class="order_prod_cont table-cell">
+                                    <div class="table">
+                                        <div class="table-cell"><img src="img/ddd_logo.png" width="87" alt=""></div>
+                                        <div class="table-cell">수량</div>
+                                        <div class="table-cell">상품가격</div>
+                                    </div>
+
+                                </li>
+                                <li class="order_prod_deliv table-cell">배송비</li>
+
+                            </ul>
+                            <ul class="order_prod_list table">
+                                <li class="order_prod_cont table-cell">
+                                    <div class="table">
+                                        <div class="table-cell">
+                                            <div class="order_prod_img"></div>
+                                            <div class="order_prod_option">
+                                                <h3>[핑카홀릭뉴욕]세일러 스트라이프 리드줄</h3>
+                                                <div><span class="order_color">색상:핑크색</span>
+                                                    <span class="order_count">
+                                                        1개</span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="table-cell"><b>1</b>개</div>
+                                        <div class="table-cell"><b>10,800</b>원</div>
+                                    </div>
+                                    <div class="table">
+                                        <div class="table-cell">
+                                            <div class="order_prod_img"></div>
+                                            <div class="order_prod_option">
+                                                <h3>[핑카홀릭뉴욕]세일러 스트라이프 리드줄</h3>
+                                                <div><span class="order_color">색상:핑크색</span><span class="order_count">1개</span></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="table-cell"><b>1</b>개</div>
+                                        <div class="table-cell"><b>10,800</b>원</div>
+                                    </div>
+
+                                </li>
+                                <li class="order_prod_deliv table-cell">무료배송</li>
+
+                            </ul>
+                        </nav>
+                        <nav class="order_prod_list_box border-top-blue table">
+                            <ul class="order_prod_title table">
+                                <li class="order_prod_cont table-cell">
+                                    <div class="table">
+                                        <div class="table-cell">판매자 배송상품</div>
+                                        <div class="table-cell">수량</div>
+                                        <div class="table-cell">상품가격</div>
+                                    </div>
+
+                                </li>
+                                <li class="order_prod_deliv table-cell">배송비</li>
+
+                            </ul>
+                            <ul class="order_prod_list table">
+                                <li class="order_prod_cont table-cell">
+                                    <div class="table">
+                                        <div class="table-cell">
+                                            <div class="order_prod_img"></div>
+                                            <div class="order_prod_option">
+                                                <h3>[핑카홀릭뉴욕]세일러 스트라이프 리드줄</h3>
+                                                <div><span class="order_color">색상:핑크색</span><span class="order_count">1개</span></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="table-cell"><b>1</b>개</div>
+                                        <div class="table-cell"><b>10,800</b>원</div>
+                                    </div>
+                                    <div class="table">
+                                        <div class="table-cell">
+                                            <div class="order_prod_img"></div>
+                                            <div class="order_prod_option">
+                                                <h3>[핑카홀릭뉴욕]세일러 스트라이프 리드줄</h3>
+                                                <div><span class="order_color">색상:핑크색</span><span class="order_count">1개</span></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="table-cell"><b>1</b>개</div>
+                                        <div class="table-cell"><b>10,800</b>원</div>
+                                    </div>
+
+                                </li>
+                                <li class="order_prod_deliv table-cell">무료배송</li>
+
+                            </ul>
+                        </nav>
+                        <nav class="order_prod_list_box border-top-gray table">
+                            <ul class="order_prod_list table">
+                                <li class="order_prod_cont table-cell">
+                                    <div class="table">
+                                        <div class="table-cell">
+                                            <div class="order_prod_img"></div>
+                                            <div class="order_prod_option">
+                                                <h3>[핑카홀릭뉴욕]세일러 스트라이프 리드줄</h3>
+                                                <div><span class="order_color">색상:핑크색</span><span class="order_count">1개</span></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="table-cell"><b>1</b>개</div>
+                                        <div class="table-cell"><b>10,800</b>원</div>
+                                    </div>
+                                    <div class="table">
+                                        <div class="table-cell">
+                                            <div class="order_prod_img"></div>
+                                            <div class="order_prod_option">
+                                                <h3>[핑카홀릭뉴욕]세일러 스트라이프 리드줄</h3>
+                                                <div><span class="order_color">색상:핑크색</span><span class="order_count">1개</span></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="table-cell"><b>1</b>개</div>
+                                        <div class="table-cell"><b>10,800</b>원</div>
+                                    </div>
+
+                                </li>
+                                <li class="order_prod_deliv table-cell">무료배송</li>
+
+                            </ul>
+                        </nav>
+
+                    </section>
+                    <div class="order_m_title">충전금 및 적립금 사용</div>
+                    <section>
+                        <div class="order_charge_box">
+                            <ul class="order_charge">
+                                <li>
+                                    <b>충전금</b>
+                                    <span>(사용 가능 금액 : <p>150,000</p>원)</span>
+                                    <button class="cash_charge_btn">캐시 충전하기</button>
+                                </li>
+                                <li>
+                                    <div>
+                                        <input type="text">원
+                                    </div>
+                                    <div class="use_btnBox">
+                                        <button>사용</button>
+                                        <button>전액사용</button>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="order_point">
+                                <li>
+                                    <b>적립금</b>
+                                    <span>(사용 가능 금액 : <p>48,256</p>원)</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <input type="text">원
+                                    </div>
+                                    <div class="use_btnBox">
+                                        <button>사용</button>
+                                        <button>전액사용</button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <div class="order_m_title">결제수단 선택</div>
+                    <section>
+                        <table class="order_pay_select">
+                            <tr>
+                                <th>결제 수단</th>
+                                <td>
+                                    <div>
+                                        <input type="radio" name="select_method" id="select_method_1" checked> <label
+                                            for="select_method_1"><span></span>무통장 입금 (적립금 지급)</label>
+                                        <input type="radio" name="select_method" id="select_method_2"> <label
+                                            for="select_method_2"><span></span>신용카드(간편)</label>
+                                        <input type="radio" name="select_method" id="select_method_3"> <label
+                                            for="select_method_3"><span></span>신용카드(일반)</label>
+                                    </div>
+                                    <!-- 신용카드 간편결제일시에만 활성화 -->
+                                    <div class="payment_card_easy_box">
+                                        <div class="payment_card_easy">
+                                            <div>
+                                                <span>카드 선택</span>
+                                                <select name="refund_bank" id="refund_bank" class="refund_bank_select"
+                                                    required>
+                                                    <option value="" disabled selected>카드 선택</option>
+                                                    <option value="1">국민은행</option>
+                                                    <option value="2">신한은행</option>
+                                                    <option value="3">기업은행</option>
+                                                    <option value="4">우리은행</option>
+                                                    <option value="5">농협</option>
+                                                    <option value="6">가장 기억에 남는 선생님의 이름은?</option>
+                                                    <option value="7">가장 기억에 남는 장소는?</option>
+                                                    <option value="8">내가 제일 존경하는 인물은?</option>
+                                                    <option value="9">가장 좋아하는 음식은?</option>
+                                                    <option value="10">나의 애완동물 이름은?</option>
+                                                </select>
+                                            </div>
+                                            <div>
+                                                <span>할부 기간</span>
+                                                <select name="refund_bank" id="refund_bank" class="refund_bank_select"
+                                                    required>
+                                                    <option value="1">일시불</option>
+                                                    <option value="2">신한은행</option>
+                                                    <option value="3">기업은행</option>
+                                                    <option value="4">우리은행</option>
+                                                    <option value="5">농협</option>
+                                                    <option value="6">가장 기억에 남는 선생님의 이름은?</option>
+                                                    <option value="7">가장 기억에 남는 장소는?</option>
+                                                    <option value="8">내가 제일 존경하는 인물은?</option>
+                                                    <option value="9">가장 좋아하는 음식은?</option>
+                                                    <option value="10">나의 애완동물 이름은?</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p>*본인 명의 카드만 사용 가능하며 할부는 5만원 이상 구매 시 가능합니다. </p>
+                                            <a href="#"><button class="conf_benefits">무이자 혜택 확인</button></a>
+                                        </div>
+                                    </div>
+                                    <span>신용카드 포인트를 사용하여 결제한 경우 카드사의 사정으로 부분 환불이 불가능하니 참고 부탁드립니다.</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>현금영수증 및 세금계산서</th>
+                                <td>
+                                    <div>
+                                        <input type="radio" name="select_receipts" id="select_receipts_1" checked>
+                                        <label for="select_receipts_1"><span></span>세금계산서 발급</label>
+                                        <input type="radio" name="select_receipts" id="select_receipts_2"> <label
+                                            for="select_receipts_2"><span></span>증빙불필요 (현금영수증 자진발급)</label>
+                                    </div>
+                                    <div>
+                                        <p>현금영수증 및 세금계산서는 <b>주문이 완전히 끝나고 난 뒤 </b>발급됩니다.</p>
+                                        <p>현금영수증 발급시 세금계산서는 발급되지 않습니다.</p>
+                                        <p>주문이 완전히 끝나기 전에 요청 사항을 변경 할 수 있습니다.</p>
+                                        <p>세금계산서를 선택했을 때 판매 상점이 <b>간이과세자</b>일 경우 <b>현금영수증</b>이 발급됩니다.</p>
+                                        <p>카드결제시 부가가치세법 시행령 제69조 부가가치세법 제 32조 제6항에 따라 ㈜팀삼층은 <b>판매대금의 영수<br>용도로 신용카드매출전표를
+                                                발급</b> 해드리며, <b>구매확정 후</b> 해당 주문 건에 대한 세금계산서를 발급해드립니다.</p>
+                                        <p>발급된 세금계산서 또는 현금영수증은 기존에 저장되어있는 <i>ddakpet@gmail.com</i>로 발송됩니다.<br>변경을 원하시는
+                                            경우 <b>마이페이지-개인정보변경</b> 에서 변경해주세요.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>환불방식 선택</th>
+                                <td>
+                                    <div>
+                                        <input type="radio" name="select_refund" id="select_refund_1" checked> <label
+                                            for="select_refund_1"><span></span>캐시환불</label>
+                                        <input type="radio" name="select_refund" id="select_refund_2"> <label
+                                            for="select_refund_2"><span></span>무통장 환불</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>입금은행</th>
+                                <td>신한은행</td>
+                            </tr>
+                            <tr>
+                                <th>입금계좌</th>
+                                <td>140-012-046312</td>
+                            </tr>
+                            <tr>
+                                <th>예금주</th>
+                                <td>주식회사 팀삼층</td>
+                            </tr>
+                            <tr>
+                                <th>입금자명</th>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+                    <!-- 신용카드 결제 선택시에만 활성화 되어야함 -->
+                    <div class="card_receipt_box">
+                        <div class="order_m_title">신용카드 영수증</div>
+                        <section>
+                            <div class="card_receipt">
+                                카드결제시 부가가치세법 시행령 제69조 부가가치세법 제 32조 제6항에 따라 ㈜팀삼층은<br>
+                                <b>판매대금의 영수용도로 신용카드매출전표를 발급</b>해드리며,<br>
+                                구매확정 후 해당 주문 건에 대한 세금계산서를 발송해드립니다.
+                            </div>
+                            <div class="receipt_agreemenBox">
+                                <input type="checkbox" name="card_receipt_agreement" id="card_receipt_agreement">
+                                <label for="card_receipt_agreement">상기 내용을 확인하였으며, 이에 동의합니다.</label>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="payment_attention">
+                        <h2>주문/결제 안내사항</h2>
+                        <span>
+                            <p>1. </p>
+                            <p>배송비 안내</p>
+                        </span>
+                        <div>
+                            <p>- 기본 배송비는 3,000원 입니다.</p>
+                            <p>- 제주/도서산간일 경우 판매자별로 설정된 배송비가 추가 부과됩니다.</p>
+                            <p>- 배송비가 초과될 경우 딱펫 쿠폰이 자동 발급되어 할인됩니다.</p>
+                            <p>- 단순 반품 시 반품 배송비 4,000원이 부과됩니다.</p>
+                            <p>- 단순 반품이고 10만원 이상 구매 시 왕복 배송비 7,000원이 부과됩니다.</p>
+                        </div>
+                        <span>
+                            <p>2. </p>
+                            <p>환불 방식 안내 ( 결제 방식대로 환불 )</p>
+                        </span>
+                        <div>
+                            <p>- 무통장 입금 : 등록된 환불계좌로 환불됩니다.</p>
+                            <p>- 카드 결제 : 결제한 카드로 환불됩니다.</p>
+                            <p>- 충전금 : 충전금으로 환불됩니다.</p>
+                            <p>- 적립금 : 적립금으로 환불됩니다.</p>
+                            <p><b>※환불의 우선순위는 1.현금 2.적립금 3.딱펫 충전금입니다.</b></p>
+                        </div>
+                        <span>
+                            <p>3. </p>
+                            <p>적립금 지급 안내</p>
+                        </span>
+                        <div>
+                            <p>- 무통장 구매 시 배송비와 적립금을 제외한 금액을 상점 등급에 맞게 지급됩니다.</p>
+                            <p>- 카드 구매 시 캐시를 사용한 금액만큼 상점 등급에 맞게 지급됩니다. (카드 결제금액 미포함)</p>
+                            <p>- 적립금은 구매 확정 시 자동 지급됩니다.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="payment_info_box">
+                    <h2>결제 정보</h2>
+                    <div>
+                        <div class="payment_info_list">
+                            <table>
+                                <tr>
+                                    <th>상품 금액</th>
+                                    <td><span>53,100</span>원</td>
+                                </tr>
+                                <tr>
+                                    <th>배송비</th>
+                                    <td><span>3,000</span>원</td>
+                                </tr>
+                                <tr>
+                                    <th>할인 금액</th>
+                                    <!-- 차감시 .minus 클래스 활성화 -->
+                                    <td><span class="minus">- 6,000</span>원</td>
+                                </tr>
+                                <tr>
+                                    <th>충전금 사용</th>
+                                    <td><span class="minus">- 3,000</span>원</td>
+                                </tr>
+                                <tr>
+                                    <th>적립금 사용</th>
+                                    <td><span class="minus">- 3,000</span>원</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="payment_info_total">
+                            <table>
+                                <tr>
+                                    <th>총 결제 금액</th>
+                                    <td>
+                                        <span>47,100</span>원
+                                        <p>(농협은행 무통장 입금)</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div class="payment_info_point">
+                                <div>예상 적립금</div>
+                                <div class="prediction_point"><span>471</span>원</div>
+                            </div>
+                            <!-- 2. 주문/결제 단계에서만 활성화. -->
+                            <div class="order_agreement">
+                                <h3>개인정보 이용약관</h3>
+                                <div class="order_terms">
+                                    개인정보 제 3자 제공 동의<br>
+                                    회원의 개인정보는 당사의 개인정보취급방침에 따라 안전하게 보호됩니다.<br>
+                                    <br>
+                                    "회사"는 이용자들의 개인정보를 "개인정보 취급방침의 개인정보의 수집 및 이용목적"에서 고지한 범위 내에서 사용하며, 이용자의 사전 동의 없이는 동
+                                    범위를 초과하여 이용하거나 원칙적으로 이용자의 개인정보를 외부에 공개하지 않습니다. 회사가 제공하는 서비스를 통하여 주문 및 결제가 이루어진 경우
+                                    구매자 확인 및 해키폴 등 거래이행을 위하여 관련된 정보를 필요한 범위 내에서 거래 업체에게 제공합니다.
+                                    <br>
+                                    <br>
+                                    제공 받는 자 <br>
+                                    제공 목적 서비스 제공, 구매자 확인, 해피콜
+                                    제공 정보 성명, 휴대전화 번호, 주소, 이메일(구매자와 수취인이 다를 경우에는 수취인의 정보가 제공 될 수 있습니다.)
+                                    보유 기간 재화 또는 서비스의 제공이 완료 된 즉시 파기 (단, 관계법령에 정해진 규정에 따라 법정기간 동안보관)
+                                    <br>
+                                    <br>
+                                    동의 거부권 등에 대한 고지<br>
+                                    개인정보 제공은 서비스 이용을 위해 꼭 필요합니다. 개인정보 제공을 거부하실 수 있으나, 이 경우 서비스 이용이 제한 될 수 있습니다.
+                                </div>
+                                <div class="order_agreement_box">
+                                    <input type="checkbox" name="order_agreement" id="order_agreement">
+                                    <label for="order_agreement">개인정보 이용약관을 확인하였으며 결제에 동의합니다.</label>
+                                </div>
+                                <div class="cart_payment_btn">
+                                    <button>결제하기</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_menu">
+            <ul>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">입점/제휴문의</a></li>
+                <li><a href="#">개인정보 처리방침</a></li>
+            </ul>
+        </div>
+        <div class="footer_inner">
+            <div class="sort_box">
+                <div class="sort contact">
+                    <h2>고객센터<br>042-864-0305</h2>
+                    <span>
+                        <p>운영시간</p>
+                        <p>월 ~ 금 10:00~17:30</p>
+                    </span>
+                    <span>
+                        <p>점심시간</p>
+                        <p>12:00~13:00</p>
+                    </span>
+                    <span class="kakao">
+                        <p>카카오 플러스친구 : 딱펫</p>
+                        <p>Email : help@ddakpet.com</p>
+                    </span>
+                </div>
+                <div class="sort about">
+                    <span>
+                        <p><a href="#">주식회사 팀삼층</a></p>
+                        <p>대표이사: 최윤환, 김교근</p>
+                    </span>
+                    <span>
+                        <p>사업자등록번호 : 399-87-00750</p>
+                        <p><a href="#">사업자정보확인</a></p>
+                    </span>
+                    <span>통신판매업신고 : 2020-대전대덕-0263</span>
+                    <span>대전광역시 대덕구 대화로139번길 33 4층</span>
+                    <span>입점문의 : ye@ddakpet.com</span>
+                </div>
+                <div class="sort check">
+                    <span><b>기업은행 안심이체 확인</b></span>
+                    <span>
+                        당사는 고객님이 현금 결제한 금액에 대해<br>
+                        기업은행 안심이체 서비스를 이용하여<br>
+                        안전거래를 보장하고 있습니다.
+                    </span>
+                    <a href="#">서비스가입사실 확인</a>
+                </div>
+            </div>
+            <div class="copy">
+                <span>개별 판매자가 등록한 마켓플레이스(오픈마켓) 상품에 대한 광고, 상품주문, 배송 및 환불의 의무와 책임은 각 판매자가 부담하고,<br>
+                    이에 대하여 (주)팀삼층은 통신판매중개자로서 통신판매의 당사자가 아니므로 일체 책임을 지지 않습니다.</span>
+                <p>© DDAKPET. All rights reserved.</p>
+            </div>
+            <div class="footer_logo">
+                <a href="#" class="sort ddakpet_logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124.07 134.16">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: #2ea8df;
+                                }
+    
+                                .cls-2 {
+                                    fill: #fff;
+                                }
+    
+                                .cls-3 {
+                                    fill: #ffe800;
+                                    fill-rule: evenodd;
+                                }
+                            </style>
+                        </defs>
+                        <g id="Layer_2" data-name="Layer 2">
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <path class="cls-1"
+                                    d="M124.07,49.45a31,31,0,0,0-31-31c-.88,0-1.75.05-2.61.12a31,31,0,0,0-56.81,0c-.86-.07-1.73-.12-2.61-.12a31,31,0,0,0-25.3,49,31,31,0,0,0,25.3,49c1,0,1.93,0,2.88-.14a31,31,0,0,0,56.27,0c1,.09,1.91.14,2.88.14a31,31,0,0,0,25.3-48.95A30.93,30.93,0,0,0,124.07,49.45Z" />
+                                <path class="cls-2"
+                                    d="M26.53,34.57v8.17A12.88,12.88,0,1,0,33,53.89V28.13S26.53,28.56,26.53,34.57ZM20.09,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,20.09,60.33Z" />
+                                <path class="cls-2"
+                                    d="M54.21,34.57v8.17a12.87,12.87,0,1,0,6.45,11.15V28.13S54.21,28.56,54.21,34.57ZM47.77,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,47.77,60.33Z" />
+                                <path class="cls-2"
+                                    d="M82.71,43.24a12.88,12.88,0,1,0-7.23,23.53,12.91,12.91,0,0,0,6.44-1.72h0s2.12,1.72,6.44,1.72V53.89A12.84,12.84,0,0,0,82.71,43.24ZM75.48,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,75.48,60.33Z" />
+                                <path class="cls-2"
+                                    d="M106.35,66.63H115L105.1,53.34,113.93,41a27.61,27.61,0,0,0-4.72.07A6.81,6.81,0,0,0,105.1,43l-5.52,6.9v0l-2.67,3.31V33.77c-.09-1.76-.93-5.56-6.45-5.56V66.85h6.45V63.27l3.85-4.67Z" />
+                                <path class="cls-2"
+                                    d="M79.18,95.11h5.44v7.13H79.18Zm1.32,6h2.81V96.27H80.5ZM88.14,97H90v1.32H88.14v4.21H86.79V93h1.35Z" />
+                                <path class="cls-2"
+                                    d="M93.55,95a2.84,2.84,0,0,1,1.2.25,3.19,3.19,0,0,1,1,.71,3.08,3.08,0,0,1,.66,1,3.68,3.68,0,0,1,0,2.56,3.08,3.08,0,0,1-.66,1,3.37,3.37,0,0,1-1,.71,3,3,0,0,1-2.38,0,3.24,3.24,0,0,1-1-.71,2.92,2.92,0,0,1-.65-1,3.53,3.53,0,0,1,0-2.56,2.92,2.92,0,0,1,.65-1,3.08,3.08,0,0,1,1-.71A2.81,2.81,0,0,1,93.55,95Zm0,5.18A1.89,1.89,0,0,0,95.21,99a1.93,1.93,0,0,0,0-1.49,2.12,2.12,0,0,0-.39-.61,1.92,1.92,0,0,0-.57-.39,1.69,1.69,0,0,0-.7-.15,1.65,1.65,0,0,0-.69.15,1.92,1.92,0,0,0-.57.39,1.77,1.77,0,0,0-.39.61,2.05,2.05,0,0,0,0,1.49,1.45,1.45,0,0,0,.39.59,1.69,1.69,0,0,0,.57.42A1.65,1.65,0,0,0,93.55,100.19Zm6.34,2.29H98.53V93h1.36Z" />
+                                <path class="cls-2"
+                                    d="M110.44,98.57v1.21h-9.25V98.57h2.34V96.89h1.29v1.68h2V96.89h1.3v1.68Zm-4.63-4-3,2.85-1.06-.78,4-3.82,4.07,3.82-1.08.78Zm2.09,5.89h1.32v4.27h-6.8v-4.4h1.35v1.08h4.13Zm0,2.1h-4.12v1.14h4.12Z" />
+                                <path class="cls-2" d="M104.18,32.44h-1.92v-1h4.9v1h-1.91v5.71h-1.07Z" />
+                                <path class="cls-2"
+                                    d="M107.86,31.47h1.57L111,36.71l1.53-5.24h1.58v6.68h-1V32.86l-1.62,5.29h-1l-1.63-5.29v5.29h-1Z" />
+                                <path class="cls-2"
+                                    d="M69.13,72.25v38.43s4.31,0,6.41-2.29V78.66S76.28,72.25,69.13,72.25Z" />
+                                <path class="cls-2"
+                                    d="M22.39,74.61A12.81,12.81,0,0,0,9.58,87.42V113s6.4-.43,6.4-6.4V98.51a12.81,12.81,0,1,0,6.41-23.9Zm0,19.22a6.41,6.41,0,1,1,6.4-6.41A6.41,6.41,0,0,1,22.39,93.83Z" />
+                                <path class="cls-2"
+                                    d="M49.76,93.81a6.39,6.39,0,0,1-6.38-6.39,5.89,5.89,0,0,1,.16-1.4,6.37,6.37,0,0,1,12.27-.63,49.91,49.91,0,0,0,6.63.17,12.81,12.81,0,0,0-22.82-6,12.14,12.14,0,0,0-1,1.59A12.81,12.81,0,1,0,61.76,91.92,35.51,35.51,0,0,1,55,91.09,6.37,6.37,0,0,1,49.76,93.81Z" />
+                                <path class="cls-3"
+                                    d="M62.81,91.47A34,34,0,0,1,51,89.39a26.78,26.78,0,0,1-11.79-8.25.62.62,0,0,1,.1-.87.59.59,0,0,1,.38-.14.65.65,0,0,1,.49.23v0h0c4.3,3.65,11.68,5.75,20.24,5.75,12.66,0,24.6-4.36,29.72-10.86a.83.83,0,0,1,.62-.36A.46.46,0,0,1,91,75a.62.62,0,0,1,.28.83,26.87,26.87,0,0,1-9.88,10.48,35,35,0,0,1-14.85,5C65.28,91.4,64,91.47,62.81,91.47Z" />
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

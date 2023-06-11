@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--reset & normalize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!--swiper-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css" />
+    <!--owl-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css">
+    <title>이용약관</title>
+    <link rel="stylesheet" href="../css/myshop_common.css">
+    <link rel="stylesheet" href="../css/myshop_main.css">
+    <link rel="stylesheet" href="../css/myshop_support.css">
+    <link rel="stylesheet" href="../css/myshop_intro.css">
+    <link rel="stylesheet" href="../css/myshop_mypage.css">
+    <script src="../js/myshop_common.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="category">
+            <button class="cate_close"></button>
+            <div class="sort_box cate_user">
+                <div class="sort"></div>
+                <span class="sort sort_box">
+                    <p class="sort">팀삼층</p>
+                    <p class="sort">님</p>
+                </span>
+            </div>
+            <div class="cate_select sort_box">
+                <div class="sort">
+                    <input name="cate_type" type="radio" id="cate_type_dog" checked="checked" />
+                    <label for="cate_type_dog"><span></span>강아지</label>
+                </div>
+                <div class="sort">
+                    <input name="cate_type" type="radio" id="cate_type_cat" />
+                    <label for="cate_type_cat"><span></span>고양이</label>
+                </div>
+                <div class="sort">
+                    <input name="cate_type" type="radio" id="cate_type_small" />
+                    <label for="cate_type_small"><span></span>소동물</label>
+                </div>
+            </div>
+            <div class="cate_l">
+                <h3>카테고리</h3>
+                <ul>
+                    <li><a href="">사료</a></li>
+                    <li><a href="">간식</a></li>
+                    <li><a href="">하우스</a></li>
+                    <li><a href="">식기</a></li>
+                    <li><a href="">미용</a></li>
+                    <li><a href="">장난감</a></li>
+                    <li><a href="">외출</a></li>
+                    <li><a href="">패션</a></li>
+                    <li><a href="">위생</a></li>
+                    <li><a href="">건강</a></li>
+                    <li><a href="">배변</a></li>
+                    <li><a href="">기타</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="category_bg"></div>
+        <div class="top"></div>
+        <div class="sort_box top_gnb">
+            <a href="#" class="sort ddakpet_logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124.07 134.16">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: #2ea8df;
+                            }
+
+                            .cls-2 {
+                                fill: #fff;
+                            }
+
+                            .cls-3 {
+                                fill: #ffe800;
+                                fill-rule: evenodd;
+                            }
+                        </style>
+                    </defs>
+                    <g id="Layer_2" data-name="Layer 2">
+                        <g id="Layer_1-2" data-name="Layer 1">
+                            <path class="cls-1"
+                                d="M124.07,49.45a31,31,0,0,0-31-31c-.88,0-1.75.05-2.61.12a31,31,0,0,0-56.81,0c-.86-.07-1.73-.12-2.61-.12a31,31,0,0,0-25.3,49,31,31,0,0,0,25.3,49c1,0,1.93,0,2.88-.14a31,31,0,0,0,56.27,0c1,.09,1.91.14,2.88.14a31,31,0,0,0,25.3-48.95A30.93,30.93,0,0,0,124.07,49.45Z" />
+                            <path class="cls-2"
+                                d="M26.53,34.57v8.17A12.88,12.88,0,1,0,33,53.89V28.13S26.53,28.56,26.53,34.57ZM20.09,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,20.09,60.33Z" />
+                            <path class="cls-2"
+                                d="M54.21,34.57v8.17a12.87,12.87,0,1,0,6.45,11.15V28.13S54.21,28.56,54.21,34.57ZM47.77,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,47.77,60.33Z" />
+                            <path class="cls-2"
+                                d="M82.71,43.24a12.88,12.88,0,1,0-7.23,23.53,12.91,12.91,0,0,0,6.44-1.72h0s2.12,1.72,6.44,1.72V53.89A12.84,12.84,0,0,0,82.71,43.24ZM75.48,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,75.48,60.33Z" />
+                            <path class="cls-2"
+                                d="M106.35,66.63H115L105.1,53.34,113.93,41a27.61,27.61,0,0,0-4.72.07A6.81,6.81,0,0,0,105.1,43l-5.52,6.9v0l-2.67,3.31V33.77c-.09-1.76-.93-5.56-6.45-5.56V66.85h6.45V63.27l3.85-4.67Z" />
+                            <path class="cls-2"
+                                d="M79.18,95.11h5.44v7.13H79.18Zm1.32,6h2.81V96.27H80.5ZM88.14,97H90v1.32H88.14v4.21H86.79V93h1.35Z" />
+                            <path class="cls-2"
+                                d="M93.55,95a2.84,2.84,0,0,1,1.2.25,3.19,3.19,0,0,1,1,.71,3.08,3.08,0,0,1,.66,1,3.68,3.68,0,0,1,0,2.56,3.08,3.08,0,0,1-.66,1,3.37,3.37,0,0,1-1,.71,3,3,0,0,1-2.38,0,3.24,3.24,0,0,1-1-.71,2.92,2.92,0,0,1-.65-1,3.53,3.53,0,0,1,0-2.56,2.92,2.92,0,0,1,.65-1,3.08,3.08,0,0,1,1-.71A2.81,2.81,0,0,1,93.55,95Zm0,5.18A1.89,1.89,0,0,0,95.21,99a1.93,1.93,0,0,0,0-1.49,2.12,2.12,0,0,0-.39-.61,1.92,1.92,0,0,0-.57-.39,1.69,1.69,0,0,0-.7-.15,1.65,1.65,0,0,0-.69.15,1.92,1.92,0,0,0-.57.39,1.77,1.77,0,0,0-.39.61,2.05,2.05,0,0,0,0,1.49,1.45,1.45,0,0,0,.39.59,1.69,1.69,0,0,0,.57.42A1.65,1.65,0,0,0,93.55,100.19Zm6.34,2.29H98.53V93h1.36Z" />
+                            <path class="cls-2"
+                                d="M110.44,98.57v1.21h-9.25V98.57h2.34V96.89h1.29v1.68h2V96.89h1.3v1.68Zm-4.63-4-3,2.85-1.06-.78,4-3.82,4.07,3.82-1.08.78Zm2.09,5.89h1.32v4.27h-6.8v-4.4h1.35v1.08h4.13Zm0,2.1h-4.12v1.14h4.12Z" />
+                            <path class="cls-2" d="M104.18,32.44h-1.92v-1h4.9v1h-1.91v5.71h-1.07Z" />
+                            <path class="cls-2"
+                                d="M107.86,31.47h1.57L111,36.71l1.53-5.24h1.58v6.68h-1V32.86l-1.62,5.29h-1l-1.63-5.29v5.29h-1Z" />
+                            <path class="cls-2"
+                                d="M69.13,72.25v38.43s4.31,0,6.41-2.29V78.66S76.28,72.25,69.13,72.25Z" />
+                            <path class="cls-2"
+                                d="M22.39,74.61A12.81,12.81,0,0,0,9.58,87.42V113s6.4-.43,6.4-6.4V98.51a12.81,12.81,0,1,0,6.41-23.9Zm0,19.22a6.41,6.41,0,1,1,6.4-6.41A6.41,6.41,0,0,1,22.39,93.83Z" />
+                            <path class="cls-2"
+                                d="M49.76,93.81a6.39,6.39,0,0,1-6.38-6.39,5.89,5.89,0,0,1,.16-1.4,6.37,6.37,0,0,1,12.27-.63,49.91,49.91,0,0,0,6.63.17,12.81,12.81,0,0,0-22.82-6,12.14,12.14,0,0,0-1,1.59A12.81,12.81,0,1,0,61.76,91.92,35.51,35.51,0,0,1,55,91.09,6.37,6.37,0,0,1,49.76,93.81Z" />
+                            <path class="cls-3"
+                                d="M62.81,91.47A34,34,0,0,1,51,89.39a26.78,26.78,0,0,1-11.79-8.25.62.62,0,0,1,.1-.87.59.59,0,0,1,.38-.14.65.65,0,0,1,.49.23v0h0c4.3,3.65,11.68,5.75,20.24,5.75,12.66,0,24.6-4.36,29.72-10.86a.83.83,0,0,1,.62-.36A.46.46,0,0,1,91,75a.62.62,0,0,1,.28.83,26.87,26.87,0,0,1-9.88,10.48,35,35,0,0,1-14.85,5C65.28,91.4,64,91.47,62.81,91.47Z" />
+                        </g>
+                    </g>
+                </svg>
+            </a>
+            <div class="sort_box sort">
+                <div class="sort cate_f on"><a href="#">스토어</a></div>
+                <div class="sort cate_f"><a href="#">커뮤니티</a></div>
+            </div>
+            <div class="sort search">
+                <input type="text" onclick="search_form_open_toggle();">
+                <button></button>
+                <div class="search_form">
+                    <div></div>
+                    <div class="search_keyword">
+                        <h3>최근 검색어</h3>
+                        <span class="none">최근 검색어가 없습니다.</span>
+                        <ul>
+                            <li>
+                                <span>포메 사료</span>
+                                <div class="keyword_delete"></div>
+                            </li>
+                            <li>
+                                <span>강아지 노즈워크</span>
+                                <div class="keyword_delete"></div>
+                            </li>
+                            <li>
+                                <span>껌</span>
+                                <div class="keyword_delete"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search_ranking ">
+                        <h3>실시간 쇼핑 검색어</h3>
+                        <ul>
+                            <li><span>1</span>끙패드</li>
+                            <li><span>2</span>꽁치간식</li>
+                            <li><span>3</span>배변패드</li>
+                            <li><span>4</span>한복</li>
+                            <li><span>5</span>건식사료</li>
+                            <li><span>6</span>강아지 식기</li>
+                            <li><span>7</span>우비</li>
+                            <li><span>8</span>덴탈껌</li>
+                            <li><span>9</span>샴푸</li>
+                            <li><span>10</span>고구마</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sort ddakpet_ranking swiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <span>1.</span>
+                            <span>끙패드</span>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <span>2.</span>
+                            <span>끙패드</span>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <span>3.</span>
+                            <span>끙패드</span>
+                        </a>
+                    </li>
+                </ul>
+                <button class="ddakpet_ranking_btn" onclick="ddakpet_ranking_open_toggle()"></button>
+
+            </div>
+            <div class="sort_r user_gnb">
+                <ul class="sort_box">
+                    <li class="sort user_gnb_l gnb_01">
+                        <a href="#">마이페이지</a>
+                        <ul>
+                            <li><a href="#">주문배송/조회</a></li>
+                            <li><a href="#">취소/반품/교환</a></li>
+                            <li><a href="#">퀵주문</a></li>
+                            <li><a href="#">단골샵</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">회원정보</a></li>
+                        </ul>
+                    </li>
+                    <li class="sort user_gnb_l"><a href="#">배송조회</a></li>
+                    <li class="sort user_gnb_l"><a href="#">장바구니</a></li>
+                    <li class="sort user_gnb_l"><a href="#">최근 본 상품</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="top_menu">
+            <div class="sort_box inner">
+                <button class="sort category_btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="sort">
+                    <li><a href="#">행사상품</a></li>
+                    <li><a href="#">기획전</a></li>
+                    <li><a href="#">신상품</a></li>
+                    <li class="ddak_month"><a href="#"><img src="../img/dd_fficial.svg" alt=""
+                        width="52"></a></li>
+            <li class="ddak_fficial"><a href="#"><img src="../img/dd_month.svg" alt=""
+                        width="52"></a></li>
+                </ul>
+                <div class="sort_r">
+                    <div class="sort_box sort login_status" style="display: none;">
+                        <a href="#" class="sort">로그인</a>
+                        <a href="#" class="sort">회원가입</a>
+                    </div>
+                    <div class="sort_box sort info_status">
+                        <div class="sort info_my">
+                            <img src="../img/grade_05.png" alt="" width="22">
+                            <a href="#"><span>팀삼층</span><span>님</span></a>
+                        </div>
+                        <div class="sort info_point"><span>30,000</span></div>
+                        <div class="sort info_cash"><span>2,000</span><button>충전</button></div>
+                        <div class="sort_box sort info_etc">
+                            <div class="sort alarm"></div>
+                            <button class="sort">로그아웃</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="body_wrap">
+            <div class="canvas">
+                <div class="left_wrap">
+                    <h2>고객센터</h2>
+                    <div class="left_menu">
+                        <ul>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">FAQ 자주묻는질문</a></li>
+                            <li><a href="#">1 : 1 문의</a></li>
+                            <li><a href="#">문의내역 확인</a></li>
+                            <li class="on"><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보 처리방침</a></li>
+                            <li><a href="#">원격제어 요청하기</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right_wrap">
+                    <h3>이용약관</h3>
+                    <div class="terms_wrap">
+                        <div class="support_text_form">
+                            서비스 이용약관
+                            <br>
+                            <br>
+                            제1조 (목적)
+                            이 약관은(주)팀삼층(이하 ”회사”라 함)이 운영하는 딱펫 서비스(이하 “서비스”라 함)와 관련하여,회사와 이용고객(비회원 또는 회원)간에 이용조건 및 절차, 회
+                                사와 고객간의 권리와 의무, 책임사항 및 기타 필요한 제반사항을 규정함을 목적으로 한다.
+                            본 약관은 PC통신, 스마트폰 앱 (안드로이드, iOS, 및 기타 OS용 앱) 등을 이용하는 전자상거래에 대해서도 그 성질에 반하지 않는 한 이 약관을 준용한다.
+                            <br>
+                            <br>
+                            제2조 (용어의 정의)
+                            이 약관에서 사용하는 용어의 정의는 다음과 같다.
+                            1. 회사가 운영하는 웹사이트 및 앱 서비스는 아래와 같다.
+                            ① 스마트폰용 OS별 딱펫 앱
+                            ② 웹사이트(www.ddakpet.com)
+                            ③ 모바일 웹사이트(m.ddakpet.com)
+                            ④ 추후 회사에서 공지하고 제공하는 기타 앱 및 웹사이트 포함
+                            <br>
+                            2. 이용자 : 웹사이트에 접속하여 이 약관에 따라 회사가 제공하는 서비스를 받는 회원 및 비회원을 말한다.
+                            <br>
+                            3. 회원 : 회사에 개인정보를 제공하여 회원등록을 한 자로서, 이 약관에 따라 회사와 서비스 이용계약을 체결하고 ID를 부여 받은 자를 말한다.
+                            <br>
+                            4. 비회원 : 회원에 가입하지 않고 회사가 제공하는 서비스를 이용하는 자를 말한다.
+                            <br>
+                            5. 아이디(ID 또는 이메일주소) : 회원의 식별과 서비스 이용을 위하여 회원이 선정하고 회사가 승인한 영문과 숫자의 조합을 말한다.
+                            <br>
+                            6. 비밀번호(Password) : 회원의 동일성 확인과 회원의 권익 및 비밀보호를 위하여 회원 스스로가 설정하여 회사에 등록한 영문과 숫자의 조합을 말한다.
+                            <br>
+                            7. 게시물 : 회원이 서비스를 이용함에 있어 서비스상에 게시한 부호/문자/사진 등의 정보 형태의 글, 사진 및 각종 파일과 링크 등을 말한다.
+                            <br>
+                            8. 딱펫 포인트 : 물품 또는 서비스를 구매할 때 또는 회사가 제공하는 서비스를 이용할 때 현금처럼 사용할 수 있는 회사 전용의 사이버 화폐를 말한다.
+                            <br>
+                            9. 제휴업체 : 회사와의 판매/광고대행 계약을 통하여 회사로부터 물품 또는 포인트, 쿠폰을 구매한 이용자에게 구매대상인 재화 및 서비스를 제공하는 업체(개인
+                                사업자, 법인 불문)를 말한다.
+                                <br>
+                            10. 본 약관에서 정의되지 않은 용어는 관련 법령이 정하는 바에 따르며, 그 외에는 일반적인 거래관행에 의한다.
+                            <br>
+                            <br>
+                            제3조 (약관의 명시와 설명 및 개정)
+                            1. 회사는 이 약관의 내용과 상호 및 대표자 성명, 영업소 소재지 주소, 전화번호, 모사전송번호, 전자우편주소, 사업자등록번호 등을 이용자가 쉽게 알 수 있도록 
+                                사이트의 초기 서비스 화면에 게시합니다. 다만, 약관의 구체적 내용은 이용자가 연결화면을 통하여 볼 수 있다.
+                                <br>
+                            2. 회사는 약관의 규제 등에 관한 법률, 전자거래 기본법, 전자서명법, 정보통신망 이용촉진 및 정보보호 등에 관한 법률(정보통신망법), 소비자기본법, 전자상거래 
+                                등에서의 소비자보호에 관한 법률 등 관련법을 위배하지 않는 범위에서 이 약관을 개정할 수 있다.
+                                <br>
+                            3. 회사가 약관을 개정할 경우에는 적용일자 및 개정사유를 명시하여 현행 약관과 함께 사이트의 초기화면에 그 개정약관의 적용일자 7일 전부터 적용일자 전일까지 
+                                공지합니다. 다만, 회원에게 불리한 약관의 개정의 경우에는 공지 외에 일정기간 서비스 내 전자우편, 전자쪽지, 로그인 시 동의버튼 등의 전자적 수단을 통하여 따로
+                                명확히 통지하도록 한다.
+                                <br>
+                            4. 제3항에 따라 따라 공지된 적용일자 이후에 회원이 회사의 서비스를 계속 이용하는 경우에는 개정된 약관에 동의하는 것으로 간주한다. 개정된 약관에 동의하지
+                                아니하는 회원은 언제든지 자유롭게 서비스 이용계약을 해지할 수 있다. 유료서비스를 이용하는 회원이 약관의 개정에 동의하지 아니하여 해지할 경우 회사가 정한
+                                환불정책에 따라 환불을 시행한다.
+                                <br>
+                            5. 이 약관에서 정하지 아니한 사항과 이 약관의 해석에 관하여는 정부가 제정한 전기통신사업법,전자거래기본법, 정보통신망법, 전자상거래 등에서의 소비자보호에
+                                관한 법률, 개인정보보호법 등 관련 법령의 규정과 일반적인 상관례에 따른다.
+                                <br>
+                                <br>
+                            제4조 (이용계약의 성립)
+                            1. 이용계약은 회원이 되고자 하는 자(이하 “가입신청자”)가 약관의 내용에 동의를 하고, 회사가 정한 가입 양식에 따라 회원정보(이용자ID(전자우편 주소), 비밀
+                                번호, 닉네임, 연락처 등)를 기입하여 회원가입신청을 하고 회사가 이러한 신청에 대하여 승인함으로써 체결된다.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <footer>
+        <div class="footer_menu">
+            <ul>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">입점/제휴문의</a></li>
+                <li><a href="#">개인정보 처리방침</a></li>
+            </ul>
+        </div>
+        <div class="footer_inner">
+            <div class="sort_box">
+                <div class="sort contact">
+                    <h2>고객센터<br>042-864-0305</h2>
+                    <span>
+                        <p>운영시간</p>
+                        <p>월 ~ 금 10:00~17:30</p>
+                    </span>
+                    <span>
+                        <p>점심시간</p>
+                        <p>12:00~13:00</p>
+                    </span>
+                    <span class="kakao">
+                        <p>카카오 플러스친구 : 딱펫</p>
+                        <p>Email : help@ddakpet.com</p>
+                    </span>
+                </div>
+                <div class="sort about">
+                    <span>
+                        <p><a href="#">주식회사 팀삼층</a></p>
+                        <p>대표이사: 최윤환, 김교근</p>
+                    </span>
+                    <span>
+                        <p>사업자등록번호 : 399-87-00750</p>
+                        <p><a href="#">사업자정보확인</a></p>
+                    </span>
+                    <span>통신판매업신고 : 2020-대전대덕-0263</span>
+                    <span>대전광역시 대덕구 대화로139번길 33 4층</span>
+                    <span>입점문의 : ye@ddakpet.com</span>
+                </div>
+                <div class="sort check">
+                    <span><b>기업은행 안심이체 확인</b></span>
+                    <span>
+                        당사는 고객님이 현금 결제한 금액에 대해<br>
+                        기업은행 안심이체 서비스를 이용하여<br>
+                        안전거래를 보장하고 있습니다.
+                    </span>
+                    <a href="#">서비스가입사실 확인</a>
+                </div>
+            </div>
+            <div class="copy">
+                <span>개별 판매자가 등록한 마켓플레이스(오픈마켓) 상품에 대한 광고, 상품주문, 배송 및 환불의 의무와 책임은 각 판매자가 부담하고,<br>
+                    이에 대하여 (주)팀삼층은 통신판매중개자로서 통신판매의 당사자가 아니므로 일체 책임을 지지 않습니다.</span>
+                <p>© DDAKPET. All rights reserved.</p>
+            </div>
+            <div class="footer_logo">
+                <a href="#" class="sort ddakpet_logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124.07 134.16">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: #2ea8df;
+                                }
+    
+                                .cls-2 {
+                                    fill: #fff;
+                                }
+    
+                                .cls-3 {
+                                    fill: #ffe800;
+                                    fill-rule: evenodd;
+                                }
+                            </style>
+                        </defs>
+                        <g id="Layer_2" data-name="Layer 2">
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <path class="cls-1"
+                                    d="M124.07,49.45a31,31,0,0,0-31-31c-.88,0-1.75.05-2.61.12a31,31,0,0,0-56.81,0c-.86-.07-1.73-.12-2.61-.12a31,31,0,0,0-25.3,49,31,31,0,0,0,25.3,49c1,0,1.93,0,2.88-.14a31,31,0,0,0,56.27,0c1,.09,1.91.14,2.88.14a31,31,0,0,0,25.3-48.95A30.93,30.93,0,0,0,124.07,49.45Z" />
+                                <path class="cls-2"
+                                    d="M26.53,34.57v8.17A12.88,12.88,0,1,0,33,53.89V28.13S26.53,28.56,26.53,34.57ZM20.09,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,20.09,60.33Z" />
+                                <path class="cls-2"
+                                    d="M54.21,34.57v8.17a12.87,12.87,0,1,0,6.45,11.15V28.13S54.21,28.56,54.21,34.57ZM47.77,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,47.77,60.33Z" />
+                                <path class="cls-2"
+                                    d="M82.71,43.24a12.88,12.88,0,1,0-7.23,23.53,12.91,12.91,0,0,0,6.44-1.72h0s2.12,1.72,6.44,1.72V53.89A12.84,12.84,0,0,0,82.71,43.24ZM75.48,60.33a6.44,6.44,0,1,1,6.44-6.44A6.44,6.44,0,0,1,75.48,60.33Z" />
+                                <path class="cls-2"
+                                    d="M106.35,66.63H115L105.1,53.34,113.93,41a27.61,27.61,0,0,0-4.72.07A6.81,6.81,0,0,0,105.1,43l-5.52,6.9v0l-2.67,3.31V33.77c-.09-1.76-.93-5.56-6.45-5.56V66.85h6.45V63.27l3.85-4.67Z" />
+                                <path class="cls-2"
+                                    d="M79.18,95.11h5.44v7.13H79.18Zm1.32,6h2.81V96.27H80.5ZM88.14,97H90v1.32H88.14v4.21H86.79V93h1.35Z" />
+                                <path class="cls-2"
+                                    d="M93.55,95a2.84,2.84,0,0,1,1.2.25,3.19,3.19,0,0,1,1,.71,3.08,3.08,0,0,1,.66,1,3.68,3.68,0,0,1,0,2.56,3.08,3.08,0,0,1-.66,1,3.37,3.37,0,0,1-1,.71,3,3,0,0,1-2.38,0,3.24,3.24,0,0,1-1-.71,2.92,2.92,0,0,1-.65-1,3.53,3.53,0,0,1,0-2.56,2.92,2.92,0,0,1,.65-1,3.08,3.08,0,0,1,1-.71A2.81,2.81,0,0,1,93.55,95Zm0,5.18A1.89,1.89,0,0,0,95.21,99a1.93,1.93,0,0,0,0-1.49,2.12,2.12,0,0,0-.39-.61,1.92,1.92,0,0,0-.57-.39,1.69,1.69,0,0,0-.7-.15,1.65,1.65,0,0,0-.69.15,1.92,1.92,0,0,0-.57.39,1.77,1.77,0,0,0-.39.61,2.05,2.05,0,0,0,0,1.49,1.45,1.45,0,0,0,.39.59,1.69,1.69,0,0,0,.57.42A1.65,1.65,0,0,0,93.55,100.19Zm6.34,2.29H98.53V93h1.36Z" />
+                                <path class="cls-2"
+                                    d="M110.44,98.57v1.21h-9.25V98.57h2.34V96.89h1.29v1.68h2V96.89h1.3v1.68Zm-4.63-4-3,2.85-1.06-.78,4-3.82,4.07,3.82-1.08.78Zm2.09,5.89h1.32v4.27h-6.8v-4.4h1.35v1.08h4.13Zm0,2.1h-4.12v1.14h4.12Z" />
+                                <path class="cls-2" d="M104.18,32.44h-1.92v-1h4.9v1h-1.91v5.71h-1.07Z" />
+                                <path class="cls-2"
+                                    d="M107.86,31.47h1.57L111,36.71l1.53-5.24h1.58v6.68h-1V32.86l-1.62,5.29h-1l-1.63-5.29v5.29h-1Z" />
+                                <path class="cls-2"
+                                    d="M69.13,72.25v38.43s4.31,0,6.41-2.29V78.66S76.28,72.25,69.13,72.25Z" />
+                                <path class="cls-2"
+                                    d="M22.39,74.61A12.81,12.81,0,0,0,9.58,87.42V113s6.4-.43,6.4-6.4V98.51a12.81,12.81,0,1,0,6.41-23.9Zm0,19.22a6.41,6.41,0,1,1,6.4-6.41A6.41,6.41,0,0,1,22.39,93.83Z" />
+                                <path class="cls-2"
+                                    d="M49.76,93.81a6.39,6.39,0,0,1-6.38-6.39,5.89,5.89,0,0,1,.16-1.4,6.37,6.37,0,0,1,12.27-.63,49.91,49.91,0,0,0,6.63.17,12.81,12.81,0,0,0-22.82-6,12.14,12.14,0,0,0-1,1.59A12.81,12.81,0,1,0,61.76,91.92,35.51,35.51,0,0,1,55,91.09,6.37,6.37,0,0,1,49.76,93.81Z" />
+                                <path class="cls-3"
+                                    d="M62.81,91.47A34,34,0,0,1,51,89.39a26.78,26.78,0,0,1-11.79-8.25.62.62,0,0,1,.1-.87.59.59,0,0,1,.38-.14.65.65,0,0,1,.49.23v0h0c4.3,3.65,11.68,5.75,20.24,5.75,12.66,0,24.6-4.36,29.72-10.86a.83.83,0,0,1,.62-.36A.46.46,0,0,1,91,75a.62.62,0,0,1,.28.83,26.87,26.87,0,0,1-9.88,10.48,35,35,0,0,1-14.85,5C65.28,91.4,64,91.47,62.81,91.47Z" />
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

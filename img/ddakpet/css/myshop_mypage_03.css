@@ -1,0 +1,991 @@
+/* 등급 관리 페이지 */
+.grade_info_box::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.grade_info_box {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background: #5A5A62;
+    color: #fff;
+    overflow: hidden;
+}
+
+.grade_info {
+    float: left;
+    text-align: center;
+    width: 600px;
+}
+
+.grade_info span {
+    display: inline-block;
+}
+
+.grade_info p {
+    display: inline-block;
+}
+
+.grade_inner {
+    font-size: 21px;
+    padding: 45px 0;
+}
+
+.grade_inner p.name {
+    font-weight: 600;
+}
+
+.grade_icon {
+    vertical-align: middle;
+    display: inline-block;
+    width: 22px;
+    height: 24px;
+    background-image: url(../img/grade_05.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 3px;
+}
+
+.grade_state {
+    font-size: 15px;
+}
+
+.grade_count p.count {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.grade_count span {
+    padding: 0 3px;
+}
+
+.grade_prograss {
+    position: relative;
+    width: 400px;
+    height: 7px;
+    border-radius: 50px;
+    background: #4C4C51;
+    margin: 12px auto 0 auto;
+}
+
+.grade_prograss span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    background: #36A9E1;
+    border-radius: 50px;
+}
+
+.cash_box {
+    float: left;
+    width: 430px;
+    height: 100%;
+    border-left: 1px solid #fff;
+    background: #4C4C51;
+    text-align: center;
+}
+
+.cash_box > div {
+    margin-top: 50px;
+}
+
+.leftover_list {
+    margin-bottom: 10px;
+}
+
+.leftover_list .cash span {
+    background: url(../img/cash.png) no-repeat left/20%;
+}
+
+.leftover_list .point span {
+    background: url(../img/point.png)no-repeat left/15%;
+}
+
+.leftover_list div {
+    display: inline-block;
+}
+
+.leftover_list > div {
+    width: 215px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.leftover_list > div::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.leftover_list > div > span {
+    float: left;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.leftover_list > div > div {
+    float: right;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.leftover_list a {
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+}
+
+.leftover_list a button {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #36A9E1;
+    color: #fff;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 10px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.leftover_list a button::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 50%;
+    right: 6px;
+    transform: translateY(-50%) rotate(180deg);
+    background:  url(../img/arrow_w.png) no-repeat center/contain;
+}
+
+.leftover_list .point {
+    position: relative;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+
+.leftover_list .point p {
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+}
+
+.right_wrap.mypage .my_benefits table th {
+    width: 200px;
+    height: 100px;
+    background: #efefef;
+}
+
+.right_wrap.mypage .my_benefits table th span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.right_wrap.mypage .my_benefits table td {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.right_wrap.mypage .my_benefits table td p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #36A9E1;
+    padding-left: 0;
+}
+
+.right_wrap.mypage .my_benefits table td b {
+    font-size: 14px;
+    color: #36A9E1;
+}
+
+.right_wrap.mypage .grade_benefits table td {
+    border-right: 0;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.right_wrap.mypage .grade_benefits table td:nth-child(1) {
+    width: 220px;
+}
+
+.right_wrap.mypage .grade_benefits table td:nth-child(2) {
+    width: 440px;
+}
+
+.right_wrap.mypage .grade_benefits table td:nth-child(3) b {
+    color: #36A9E1;
+}
+
+.right_wrap.mypage .grade_benefits table tr:nth-child(1) .grade_icon {
+    background-image: url(../img/grade_01.png);
+}
+
+.right_wrap.mypage .grade_benefits table tr:nth-child(2) .grade_icon {
+    background-image: url(../img/grade_02.png);
+}
+
+.right_wrap.mypage .grade_benefits table tr:nth-child(3) .grade_icon {
+    background-image: url(../img/grade_03.png);
+}
+
+.right_wrap.mypage .grade_benefits table tr:nth-child(4) .grade_icon {
+    background-image: url(../img/grade_04.png);
+}
+
+.right_wrap.mypage .grade_benefits table tr:nth-child(5) .grade_icon {
+    background-image: url(../img/grade_05.png);
+}
+
+.grade_benefits > span {
+    display: block;
+    color: #5A5A62;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* 포인트 내역 페이지 */
+.point_info_box {
+    display: table;
+    width: 100%;
+    height: 100px;
+    background: #4C4C51;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #fff;
+}
+
+.point_inner {
+    position: relative;
+    display: table-cell;
+    width: 350px;
+    height: 100px;
+    padding-left: 40px;
+    vertical-align: middle;
+}
+
+.point_inner::after {
+    content: "";
+    width: 120px;
+    height: 120px;
+    background: #4C4C51;
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.point_inner span {
+    font-size: 18px;
+    display: block;
+    padding-left: 20px;
+    background: url(../img/point.png) no-repeat left/3%;
+}
+
+.point_inner div {
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.point_leftover {
+    display: table-cell;
+    text-align: right;
+    padding-right: 40px;
+    width: 680px;
+    font-size: 15px;
+    background: #5A5A62;
+    vertical-align: middle;
+}
+
+.point_leftover > div {
+    width: 420px;  
+    float: right;
+}
+
+.point_leftover > div > div {
+    padding: 10px 0;
+}
+
+.point_leftover > div > div::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.point_leftover > div span:first-child {
+    float: left;
+}
+
+.point_leftover > div span:last-child {
+    float: right;
+}
+
+.point_leftover > div span p {
+    display: inline-block;
+}
+
+.expiry_point {
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+
+/* 포인트 적립 내역 */
+.point_history {
+    margin-top: 40px;
+}
+
+.point_history .inputBox_date {
+    margin-bottom: 10px;
+}
+
+.right_wrap.mypage .point_history table th {
+    width: 150px;
+    text-align: center;
+}
+
+.right_wrap.mypage .point_history table th:nth-child(2) {
+    width: 430px;
+}
+
+.right_wrap.mypage .point_history table td {
+    text-align: center;
+}
+
+/* 캐시 관리 페이지 */
+.cash_wrap {
+    margin-top: 85px;
+}
+
+.cash_info_box {
+    display: table;
+    width: 100%;
+    height: 130px;
+    background: #4C4C51;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #fff;
+}
+
+.cash_inner {
+    display: table-cell;
+    width: 350px;
+    height: 100px;
+    padding-left: 40px;
+    vertical-align: middle;
+}
+
+.cash_inner span {
+    font-size: 18px;
+    display: block;
+    padding-left: 20px;
+    background: url(../img/cash.png) no-repeat left/4%;
+}
+
+.cash_inner div {
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.cash_proceeding {
+    display: table-cell;
+    text-align: left;
+    width: 680px;
+    font-size: 15px;
+    background: #5A5A62;
+    vertical-align: middle;
+}
+
+.cash_proceeding_list {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.cash_proceeding_list:first-child {
+    border-right: 1px solid rgba(255,255,255,.6);
+}
+
+.cash_proceeding_list > span {
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.cash_proceeding_list div {
+    width: 300px;
+    height: 25px;
+    background: #fff;
+    border-radius: 5px;
+    color: #000;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.cash_proceeding_list div span {
+    line-height: 23px;
+}
+
+.cash_proceeding_list div span:first-child {
+    float: left;
+}
+
+.cash_proceeding_list div span:last-child {
+    float: right;
+}
+
+.cash_proceeding_list div p {
+    color: #36A9E1;
+    display: inline-block;
+}
+
+/* 캐시 페이지 탭 */
+.cash_tab {
+    margin-top: 30px;
+    width: 100%;
+    border-bottom: 1px solid #D5D5D5;
+    font-weight: 500;
+}
+
+.cash_tab ul li {
+    position: relative;
+    width: 113px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.cash_tab ul li.on::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #36A9E1;
+}
+
+.cash_tab_cont li {
+    display: none;
+}
+
+.cash_tab_cont li.on {
+    display: block;
+}
+
+.cash_tab_cont .inputBox_date {
+    margin: 15px 0 5px 0;
+}
+
+/* 캐시 사용내역 테이블 */
+/* 캐시 사용 내역 탭 */
+.right_wrap.mypage .cash_tab_cont table th {
+    border-right: 0;
+}
+
+.right_wrap.mypage .cash_tab_cont li:first-child table th {
+    text-align: center;
+}
+
+.right_wrap.mypage .cash_tab_cont li:first-child table td {
+    text-align: center;
+}
+
+.right_wrap.mypage .cash_tab_cont table td {
+    height: 60px;
+    border-right: 0;
+}
+
+.right_wrap.mypage .cash_tab_cont table th:nth-child(1) {
+    width: 100px;
+}
+
+.right_wrap.mypage .cash_tab_cont table th:nth-child(2) {
+    width: 150px;
+}
+
+.right_wrap.mypage .cash_tab_cont table th:nth-child(3) {
+    width: 365px;
+}
+
+.right_wrap.mypage .cash_tab_cont table th:nth-child(4) {
+    width: 170px;
+}
+
+.right_wrap.mypage .cash_tab_cont table th:nth-child(5) {
+    width: 150px;
+}
+
+.right_wrap.mypage .cash_tab_cont table th:nth-child(6) {
+    width: 100px;
+}
+
+.right_wrap.mypage .cash_tab_cont table td.division span {
+    display: inline-block;
+    border: 1px solid #36A9E1;
+    color: #36A9E1;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    line-height: 42px;
+}
+
+.right_wrap.mypage .cash_tab_cont table tr.minus td.division span {
+    border: 1px solid #E7262B;
+    color: #E7262B;
+}
+
+.right_wrap.mypage .cash_tab_cont table td.order a {
+    color: #36A9E1;
+    text-decoration: underline;
+}
+
+.right_wrap.mypage .cash_tab_cont table tr.plus td.amount span {
+    color: #36A9E1;
+}
+
+.right_wrap.mypage .cash_tab_cont table tr.minus td.amount span {
+    color: #E7262B;
+}
+
+.right_wrap.mypage .cash_tab_cont table td.state span {
+    display: inline-block;
+    color: #9D9D9C;
+    border: 1px solid #DFDFDF;
+    width: 70px;
+    height: 20px;
+    border-radius: 50px;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.right_wrap.mypage .cash_tab_cont table td.state span.ing {
+    color: #36A9E1;
+    border: 1px solid #36A9E1;
+}
+
+/* 캐시 충전 탭 */
+.cash_charge {
+    padding: 25px 20px;
+}
+
+.select_amount::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.select_amount div{
+    display: table-cell;
+    width: 25%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    border: 1px solid #D3D3D3;
+    border-collapse: collapse;
+    line-height: 48px;
+    color: #9D9D9C;
+    cursor: pointer;
+}
+
+.select_amount div:not(:nth-child(4n)) {
+    border-right: 0;
+}
+
+.select_amount div:nth-child(-n+4) {
+    border-bottom: 0;
+}
+
+.select_amount div.on {
+    color: #fff;
+    background: #36A9E1;
+    border: 1px solid #36A9E1;
+    font-weight: 500;
+}
+
+.self_input {
+    margin-top: 20px;
+    position: relative;
+}
+
+.self_input {
+    display: none;
+}
+
+.self_input.on {
+    display: block;
+}
+
+.self_input input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #36A9E1;
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+.self_input .amount_resetbtn {
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%) scale(80%);
+    width: 30px;
+    height: 30px; 
+    background: #9D9D9C url(../img/close_w.png) no-repeat 10px 10px/40%;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* 결제 정보 테이블 */
+.cash_charge span {
+    display: block;
+    color: #5A5A62;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.right_wrap.mypage .cash_charge table {
+    text-align: left;
+    border: 1px solid #dfdfdf;
+    border-top: 2px solid #36A9E1;
+
+}
+
+.right_wrap.mypage .cash_charge table tr {
+    border-bottom: 0;
+}
+
+.right_wrap.mypage .cash_charge table tr:last-child th {
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+.right_wrap.mypage .cash_charge table th {
+    text-align: left;
+    padding-left: 15px;
+    width: 170px !important;
+}
+
+.right_wrap.mypage .cash_charge table td {
+    height: 35px;
+    text-align: left;
+    border-bottom: 0;
+}
+
+.right_wrap.mypage .cash_charge table td input {
+    width: 350px;
+}
+
+.cash_privacy input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 17px;
+}
+
+.cash_privacy {
+    margin: 10px 0 15px 0;
+    font-size: 12px;
+}
+
+.cash_privacy span {
+    line-height: 17px;
+}
+
+.right_wrap.mypage .cash_privacy input[type="checkbox"] + label::before {
+    left: 6px;
+}
+
+
+/* 캐시 환불 탭 */
+.cash_refund {
+    padding-top: 20px;
+}
+
+.cash_refund table {
+    border: 1px solid #dfdfdf;
+}
+
+.right_wrap.mypage .cash_refund table tr {
+    border-bottom: 0;
+}
+
+.right_wrap.mypage .cash_refund table tr:first-child td {
+    padding-top: 20px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.right_wrap.mypage .cash_refund table tr:first-child th {
+    padding-top: 20px;
+}
+
+.right_wrap.mypage .cash_refund table tr:last-child td {
+    height: 55px;
+    padding-top: 5px;
+    vertical-align: top;
+}
+
+.right_wrap.mypage .cash_refund table tr:last-child th {
+    padding-top: 10px;
+    vertical-align: top;
+}
+
+.right_wrap.mypage .cash_refund table th {
+    padding-left: 15px;
+    text-align: left;
+    width: 170px !important;
+}
+
+.right_wrap.mypage .cash_refund table td {
+    text-align: left;
+    height: 35px;
+    border-bottom: 0;
+}
+
+.right_wrap.mypage .cash_refund table td input {
+    width: 350px;
+}
+
+.right_wrap.mypage .cash_refund table td select {
+    width: 350px;
+}
+
+.right_wrap.mypage .cash_refund table tr:nth-child(2) td input {
+    width: 270px;
+}
+
+.cash_all_refund {
+    display: inline-block;
+    transform: scale(90%);
+}
+
+.right_wrap.mypage .cash_all_refund input[type="checkbox"] + label {
+    padding-left: 18px;
+    position: relative;
+}
+
+.right_wrap.mypage .cash_all_refund input[type="checkbox"] + label::before {
+    position: absolute;
+    left: 6px;
+}
+
+.cash_refund_attention  {
+    padding-top: 10px;
+}
+
+.cash_refund_attention span {
+    display: block;
+    font-size: 12px;
+    color: #5A5A62;
+    line-height: 16px;
+}
+
+
+/* 회원 탈퇴 페이지 */
+.secession_wrap {
+    width: 100%;
+    border-top: 1px solid #D5D5D5;
+    margin-bottom: 120px;
+}
+
+.secession_attention {
+    background: #F2F2F2;
+    border-radius: 10px;
+    padding: 35px 25px 25px 25px;
+}
+
+.secession_attention h2 {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+.secession_attention h2::before {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 35px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(../img/attention.png) no-repeat center/contain;
+}
+
+.secession_attention span {
+    display: block;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.secession_attention p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.secession_attention p:last-child {
+    color: #5A5A62;
+    padding-left: 3px;
+}
+
+.right_wrap.mypage .secession_attention_agree {
+    margin-top: 6px;
+}
+
+.right_wrap.mypage .secession_attention_agree input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 25px;
+    font-size: 12px;
+}
+
+.right_wrap.mypage .secession_attention_agree input[type="checkbox"] + label::before {
+    left: 6px;
+}
+
+.proceeding_order_box {
+    margin-top: 40px;
+    border: 1px solid #36A9E1;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.proceeding_order_box h3 {
+    padding-top: 0;
+    border-bottom: 1px solid #707070;
+}
+
+.proceeding_order_box h3 b {
+    color: #36A9E1;
+    font-weight: 400;
+}
+
+.proceeding_order_box p {
+    font-size: 12px;
+    color: #5A5A62;
+    padding-bottom: 7px;
+}
+
+.proceeding_order_attention {
+    margin: 20px 0 13px 0;
+}
+
+.proceeding_order_list {
+    width: 100%;
+    padding: 15px;
+    background: #F2F2F2;
+    border-radius: 10px;
+}
+
+.proceeding_order_list div {
+    font-size: 14px;
+}
+
+.proceeding_order_list ul {
+    margin-top: 15px;
+}
+
+.proceeding_order_list ul li {
+    padding-bottom: 15px;
+}
+
+.proceeding_order_list ul li:last-child {
+    padding-bottom: 0;
+}
+
+.proceeding_order_list ul li a {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    padding-left: 25px;
+    color: #36A9E1;
+    text-decoration: underline;
+}
+
+.proceeding_order_list ul li a::before {
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 50%;
+    width: 8px;
+    height: 5px;
+    background: url(../img/bottom_arrow.png) no-repeat center/cover;
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+.secession_reason {
+    border-bottom: 1px solid #D5D5D5;
+}
+
+.secession_reason h3 {
+    border-bottom: 2px solid #36A9E1;
+    padding-bottom: 10px;
+}
+
+.secession_reason_list {
+    margin: 30px 0;
+    font-size: 14px;
+}
+
+.secession_reason_list > div:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+.right_wrap.mypage .secession_reason_list input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 30px;
+}
+
+.right_wrap.mypage .secession_reason_list input[type="checkbox"] + label::before {
+    left: 6px;
+}
+
+
+/* 회원가입 완료 페이지 */
+.secession_finish_wrap {
+    width: 100%;
+    height: 720px;
+    position: relative;
+}
+
+.secession_finish {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.secession_finish svg {
+    width: 100px;
+}
+
+.secession_finish h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 28px 0;
+}
+
+.secession_finish span {
+    font-size: 18px;
+    color: #5A5A62;
+    line-height: 26px;
+}
