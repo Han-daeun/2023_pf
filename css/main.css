@@ -199,7 +199,20 @@ html {
     text-align: center;
     margin-right: 100px;
     margin-left: auto;
+    border-radius: 10px;
 }
+
+/* 사진 넣고 수정 */
+
+.about_left {
+    width: 10% !important;
+}
+
+.about_left > .photo {
+    background-color: transparent;
+}
+
+/* 사진 넣고 수정 */
 
 .about_right {
     text-align: left;
@@ -658,7 +671,7 @@ html {
     border-radius: 50%;
     background: #EBEEF3;
     left: auto;
-    right: -30%;
+    right: -20%;
     bottom: 5%;
 }
 
