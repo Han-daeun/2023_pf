@@ -798,6 +798,9 @@ html {
         float: none;
         width: 100%;
     }
+    .about_wrap > .about_left {
+        display: none;
+    }
     .about_wrap > .about_right {
         margin-top: 50px;
     }
